@@ -1,19 +1,24 @@
 {
   "release": {
-    "version": "0.9.13",
-    "publishedAt": "2026-08-26T16:59:25.594Z",
-    "notes": "Live phone download progress, clear COMPLETE states, locked mobile zoom, and secure one-click updates.",
-    "baseUrl": "https://raw.githubusercontent.com/MatlockFT/screenglo-companion-updates/main/releases/0.9.13/",
+    "version": "0.9.14",
+    "publishedAt": "2026-08-26T22:10:11.934Z",
+    "notes": "Public Letterboxd ratings, Tyler and Gloria watched states, shared watchlists, curated lists, and the new For Us view.",
+    "baseUrl": "https://raw.githubusercontent.com/MatlockFT/screenglo-companion-updates/main/releases/0.9.14/",
     "files": [
       {
         "path": "server.js",
-        "sha256": "14e24b78af353c41db1102725123e59f7a3b2e76cabe57bbed97f89df33ac384",
-        "size": 21035
+        "sha256": "7b7402c08063474faadd734a832855bf46513cf69e06d0278760378c1014126d",
+        "size": 22879
+      },
+      {
+        "path": "letterboxd.js",
+        "sha256": "099bd342a4fe2ea67ea682d2b0d7330a44c32856093c709c0cd32251b46e2118",
+        "size": 16651
       },
       {
         "path": "package.json",
-        "sha256": "81c6fdad43b79739e073fec6da84aa32a71b423db42dc849149184558e031b47",
-        "size": 225
+        "sha256": "639760d71217268e1dc7b0b3046a9708a5a28dba16bed131326a0f696b7a7a02",
+        "size": 289
       },
       {
         "path": "start.ps1",
@@ -27,22 +32,22 @@
       },
       {
         "path": "public/app.js",
-        "sha256": "ba09f5f24d066995bbe936fd85497000cfa92fc6a833a25316b04fc9e02130d8",
-        "size": 9968
+        "sha256": "7de741560eb3e17cea42670dbaf753ac934ccbeccf717d3435d29c38d52bdb53",
+        "size": 13729
       },
       {
         "path": "public/index.html",
-        "sha256": "32a0349c84ecb798431d54eed478fc331762c6802cce04e053872e733bad282b",
-        "size": 4581
+        "sha256": "1a4aca1d81321fe019d8daf5c6a521c1a966daccffb7143baacce26e1bb7754a",
+        "size": 6210
       },
       {
         "path": "public/styles.css",
-        "sha256": "a3dc3cf93452a4236ebe67ee35a5ad0dcadb1546567accce1a1f7d51be574c0e",
-        "size": 6139
+        "sha256": "a9e32ca29b2282e094414dc9b93912083b9f3c13d7da688e60bc16503ce45b8e",
+        "size": 8912
       },
       {
         "path": "public/sw.js",
-        "sha256": "3e2818147f819d4f29ec77fbe263578c667b5aa82d1f17a405c83ddbfb374426",
+        "sha256": "13053301b5c6926a4ef2a5c244bb0a46dc09b714e96129f14431cc436c443765",
         "size": 702
       },
       {
@@ -67,5 +72,5 @@
       }
     ]
   },
-  "signature": "Uvfmxo1ARNOLKsYhQwprsbyETKXIg0Wtz3/ix6CKu+vvllemlSOJyKJokKulW0yfZugGYlMPOxsM6PbPW9wgAQ=="
+  "signature": "iNA+ivdwVPnn+kHnNPgx15gkIdT+U1n2x/81F5tB1KX9JlB8wi9RYxkNpCk8Bdytskk3q66Otg+mHa5cUiLKBA=="
 }
