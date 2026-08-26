@@ -1,7 +1,7 @@
 {
   "release": {
     "version": "0.9.14",
-    "publishedAt": "2026-08-26T22:11:40.958Z",
+    "publishedAt": "2026-08-26T22:13:30.291Z",
     "notes": "Public Letterboxd ratings, Tyler and Gloria watched states, shared watchlists, curated lists, and the new For Us view.",
     "baseUrl": "https://raw.githubusercontent.com/MatlockFT/screenglo-companion-updates/main/releases/0.9.14/",
     "files": [
@@ -12,8 +12,8 @@
       },
       {
         "path": "package.json",
-        "sha256": "639760d71217268e1dc7b0b3046a9708a5a28dba16bed131326a0f696b7a7a02",
-        "size": 289
+        "sha256": "a758cc4366c9f8fc832c0db42d24f0466a0cd7f1066ddd1ab511ed8614ace96a",
+        "size": 225
       },
       {
         "path": "start.ps1",
@@ -67,5 +67,5 @@
       }
     ]
   },
-  "signature": "zI19XL4qgpFmYZXQ+4xz9UiGGPzbXGXESKpO/YnSz7U1wq37T4wEevcq4jqvGmSjLcshkdGBrSvQ4g8Yh31fCQ=="
+  "signature": "nrCAzHWIMJQ4MXe/YRPPxdXwxbmbc1pK8ytzO/MVR14EkN9QwsGyZlAnat2g08p1+wTDgGW8naDKVbeXRWpuBg=="
 }
