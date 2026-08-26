@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+  <meta name="theme-color" content="#ff5278">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <title>SCREENGLO Phone Control</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon-192.png">
+  <link rel="apple-touch-icon" href="icon-192.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="shell">
+    <header class="brand-row">
+      <img src="logo.png" alt="SCREENGLO" class="logo">
+      <div class="connection"><span id="state-dot"></span><div><strong id="state-title">Connecting</strong><small id="state-copy">Finding your TV and PC</small></div></div>
+    </header>
+
+    <nav class="tabs" aria-label="Phone Control sections">
+      <button class="tab active" data-view="remote">REMOTE</button>
+      <button class="tab" data-view="downloads">DOWNLOADS</button>
+      <button class="tab" data-view="settings">SETTINGS</button>
+    </nav>
+
+    <section class="view active" id="remote">
+      <section class="remote-card" aria-label="SCREENGLO remote">
+        <button class="direction up" data-command="up" aria-label="Up">▲</button>
+        <button class="direction left" data-command="left" aria-label="Left">◀</button>
+        <button class="select" data-command="select">OK</button>
+        <button class="direction right" data-command="right" aria-label="Right">▶</button>
+        <button class="direction down" data-command="down" aria-label="Down">▼</button>
+      </section>
+      <div class="remote-actions">
+        <button data-command="back">← BACK</button>
+        <button class="exit" data-command="exit">EXIT</button>
+      </div>
+
+      <form id="search-form" class="search-form">
+        <label><span>SEARCH MOVIES + TV</span><input id="search-input" minlength="2" maxlength="120" autocomplete="off" enterkeyhint="search" placeholder="Type or paste a title"></label>
+        <button type="submit">SEARCH</button>
+      </form>
+      <div class="sorts"><button class="sort active" data-sort="seeders">SEEDERS</button><button class="sort" data-sort="newest">NEWEST</button><button class="sort" data-sort="size">SIZE</button></div>
+      <p id="search-status" class="status"></p>
+      <section id="results" class="results"></section>
+      <section id="detail" class="detail hidden"></section>
+    </section>
+
+    <section class="view" id="downloads">
+      <div class="section-title"><div><small>NEWEST FIRST</small><h1>Downloads</h1></div><button id="refresh">REFRESH</button></div>
+      <p id="download-status" class="status"></p><section id="download-list" class="download-list"></section>
+    </section>
+
+    <section class="view" id="settings">
+      <div class="section-title"><div><small>LOCAL + PRIVATE</small><h1>Companion settings</h1></div></div>
+      <p class="explain">These values stay encrypted for your Windows account. Phone Control works only on your home network.</p>
+      <form id="settings-form" class="settings-form">
+        <label>QBITTORRENT HOST<input id="qbit-host" placeholder="127.0.0.1"></label>
+        <label>PORT<input id="qbit-port" inputmode="numeric" placeholder="8080"></label>
+        <label class="check"><input id="qbit-https" type="checkbox"> Use HTTPS</label>
+        <label>QBITTORRENT API KEY<input id="qbit-key" type="password" autocomplete="off" placeholder="Saved securely — enter only to replace"></label>
+        <label>TMDB READ TOKEN<input id="tmdb-token" type="password" autocomplete="off" placeholder="Saved securely — enter only to replace"></label>
+        <label>DOWNLOAD CATEGORY<input id="category" placeholder="movies"></label>
+        <button type="submit">SAVE + TEST</button>
+      </form>
+      <p id="settings-status" class="status"></p>
+      <section class="update-card">
+        <small>SECURE COMPANION UPDATES</small>
+        <h2>Ready for direct updates</h2>
+        <p id="companion-version">Checking version…</p>
+        <p id="update-copy">Future phone updates download directly on the Windows PC. Your credentials and private phone address are never included.</p>
+        <button id="update-companion" type="button">CHECK FOR UPDATE</button>
+      </section>
+      <button id="install" class="install hidden">ADD SCREENGLO TO THIS PHONE</button>
+    </section>
+  </main>
+  <script src="app.js" defer></script>
+</body>
+</html>

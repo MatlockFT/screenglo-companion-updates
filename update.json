@@ -1,0 +1,71 @@
+{
+  "release": {
+    "version": "0.9.13",
+    "publishedAt": "2026-08-26T16:59:25.594Z",
+    "notes": "Live phone download progress, clear COMPLETE states, locked mobile zoom, and secure one-click updates.",
+    "baseUrl": "https://raw.githubusercontent.com/MatlockFT/screenglo-companion-updates/main/releases/0.9.13/",
+    "files": [
+      {
+        "path": "server.js",
+        "sha256": "14e24b78af353c41db1102725123e59f7a3b2e76cabe57bbed97f89df33ac384",
+        "size": 21035
+      },
+      {
+        "path": "package.json",
+        "sha256": "81c6fdad43b79739e073fec6da84aa32a71b423db42dc849149184558e031b47",
+        "size": 225
+      },
+      {
+        "path": "start.ps1",
+        "sha256": "bf5b45c90f1e2e05ecd0a71b9d3e8526920a7abc64de0b0d34667ff2c66d4e29",
+        "size": 2034
+      },
+      {
+        "path": "apply-update.ps1",
+        "sha256": "f94b567e409589933ff89d73418f4c6a62325fe7492bff1415109fa80e79cd12",
+        "size": 2081
+      },
+      {
+        "path": "public/app.js",
+        "sha256": "ba09f5f24d066995bbe936fd85497000cfa92fc6a833a25316b04fc9e02130d8",
+        "size": 9968
+      },
+      {
+        "path": "public/index.html",
+        "sha256": "32a0349c84ecb798431d54eed478fc331762c6802cce04e053872e733bad282b",
+        "size": 4581
+      },
+      {
+        "path": "public/styles.css",
+        "sha256": "a3dc3cf93452a4236ebe67ee35a5ad0dcadb1546567accce1a1f7d51be574c0e",
+        "size": 6139
+      },
+      {
+        "path": "public/sw.js",
+        "sha256": "3e2818147f819d4f29ec77fbe263578c667b5aa82d1f17a405c83ddbfb374426",
+        "size": 702
+      },
+      {
+        "path": "public/manifest.webmanifest",
+        "sha256": "e220b35e90e6b86f0be00901468e691a35aed14dbf1c516981de131540b11b25",
+        "size": 459
+      },
+      {
+        "path": "public/logo.png",
+        "sha256": "9d793358b51325044dc36d62e853a185bb0b1e8be1b5ddf74ece1926e14c6a44",
+        "size": 243210
+      },
+      {
+        "path": "public/icon-192.png",
+        "sha256": "6f34d5ab074074cb07b42385328a036f9a2d20d8143dbc7fd7b94e619201952c",
+        "size": 56754
+      },
+      {
+        "path": "public/icon-512.png",
+        "sha256": "1f1f4ef6d6e7b4b99d1f6961177a39137d46ca056bfc600d3962b7f2bb676498",
+        "size": 343512
+      }
+    ]
+  },
+  "signature": "Uvfmxo1ARNOLKsYhQwprsbyETKXIg0Wtz3/ix6CKu+vvllemlSOJyKJokKulW0yfZugGYlMPOxsM6PbPW9wgAQ=="
+}
