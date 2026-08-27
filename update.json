@@ -1,24 +1,24 @@
 {
   "release": {
-    "version": "0.9.18",
-    "publishedAt": "2026-08-27T21:52:12.552Z",
-    "notes": "Discover navigation: visible back control, iPhone edge-swipe back gesture, and Discover-tab reset to recommendations. Includes the resilient connection, download controls, and update recovery improvements from 0.9.17.",
-    "baseUrl": "https://raw.githubusercontent.com/MatlockFT/screenglo-companion-updates/main/releases/0.9.18/",
+    "version": "0.9.19",
+    "publishedAt": "2026-08-27T22:14:35.830Z",
+    "notes": "SCREENGLO 0.9.19 adds the Windows tray icon with Open, Restart, Logs, Exit and automatic recovery; Phone Control edge-swipe Back and Forward; clear TV App, Windows Companion, and Phone Control version status; and faster Letterboxd recommendations with progressive TV loading.",
+    "baseUrl": "https://raw.githubusercontent.com/MatlockFT/screenglo-companion-updates/main/releases/0.9.19/",
     "files": [
       {
         "path": "server.js",
-        "sha256": "d0cd06334fc5789ac935e1551aa54e70ab229efaf1dcff508343f36359f8fa4e",
-        "size": 41932
+        "sha256": "8588cb811164e46e6176bef2a99afaf349ba39a7b779648a716a0909a8f71947",
+        "size": 42665
       },
       {
         "path": "package.json",
-        "sha256": "3f690c1f611e63b69a43be57c2aadcc1cef6e2b8c2224dc81333955e21312355",
+        "sha256": "e74f3bef19b89d644e29f4a1c1a72338fdd8bb70453836f1a133e135db2a769e",
         "size": 225
       },
       {
         "path": "start.ps1",
-        "sha256": "bf5b45c90f1e2e05ecd0a71b9d3e8526920a7abc64de0b0d34667ff2c66d4e29",
-        "size": 2034
+        "sha256": "8ca9e6cdf86135d23a81ebdb8485180b399d00b23ebd430e9d7aa780d2363ba2",
+        "size": 7571
       },
       {
         "path": "apply-update.ps1",
@@ -27,23 +27,23 @@
       },
       {
         "path": "public/app.js",
-        "sha256": "4b210a6bb8114cb878cf4e751c0e6213f59d958227dd6b072b6386920e408232",
-        "size": 22413
+        "sha256": "fa6ef2b8b86363cf97faef5aa0480df4aa78930b0cb937b08c6ed7f0f28fa23b",
+        "size": 25305
       },
       {
         "path": "public/index.html",
-        "sha256": "08cf57c0c1ff98a72e032e3d70ae6d22f4f7cc3351b7ae1b719720a35bbdc4ee",
-        "size": 7538
+        "sha256": "133001d3b752f76e55fb25bffb8f8a86fbd5413a633cbd8ee04e03240d44987a",
+        "size": 7997
       },
       {
         "path": "public/styles.css",
-        "sha256": "0f71369a75684a560a86de139105ecbefa95e56e79ae212c7fa8d51286a21e89",
-        "size": 16073
+        "sha256": "607d35650324420742bddec22489c54289ca6007d4afb076192be784987707ed",
+        "size": 16349
       },
       {
         "path": "public/sw.js",
-        "sha256": "a357fded6f0ff03271ef1f8c04630ddf576378f37b5039962562695d73284650",
-        "size": 702
+        "sha256": "5f3bc5b94e00d4fe829d2dcb5308a41c4125775f9e3e651064f6bbc79a561442",
+        "size": 711
       },
       {
         "path": "public/manifest.webmanifest",
@@ -67,5 +67,5 @@
       }
     ]
   },
-  "signature": "tfDopTtwTV9Z6lEO+mkNkSpcfkOF2aIWvt1bDY77tQ0rkzI4a0SRhvszHN5jqheBkgsW9HZwvZdvmpIcd6VEBw=="
+  "signature": "KXyQVGCWDOJw/5oVaJBvNFBLD5ukJl+znZQyJ4ELzCkxA6r1fbcR+FR3qOOtYVeljuR0cpIvWwns4y3E9UCbCA=="
 }
