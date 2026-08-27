@@ -82,21 +82,21 @@ function renderTvContext(tv, requestKeyboard = false) {
   const form = $('#tv-input-form'), input = $('#tv-input');
   if (!tv?.foreground) {
     $('#tv-context-label').textContent = 'PHONE-ONLY MODE';
-    $('#tv-context-title').textContent = 'Playback stays untouched';
-    $('#tv-context-copy').textContent = 'Discover and download here without opening SCREENGLO on the TV.';
+    $('#tv-context-title').textContent = 'TV app inactive';
+    $('#tv-context-copy').textContent = 'Search and downloads remain available.';
     form.classList.add('hidden');
   } else if (tv.editing) {
     const field = tv.field || 'TV field';
     $('#tv-context-label').textContent = 'TV KEYBOARD';
     $('#tv-context-title').textContent = field;
-    $('#tv-context-copy').textContent = 'Type or paste below, then send it straight to the TV.';
+    $('#tv-context-copy').textContent = 'Type or paste below.';
     form.classList.remove('hidden');
     input.placeholder = `Type for ${field}`;
     if (requestKeyboard) { input.focus({ preventScroll: true }); input.setSelectionRange(input.value.length, input.value.length); }
   } else {
     $('#tv-context-label').textContent = String(tv.screen || 'SCREENGLO').toUpperCase();
-    $('#tv-context-title').textContent = 'TV control is ready';
-    $('#tv-context-copy').textContent = 'Select any TV text field to turn your phone into its keyboard.';
+    $('#tv-context-title').textContent = 'TV connected';
+    $('#tv-context-copy').textContent = 'Select a TV text field to type from this phone.';
     form.classList.add('hidden');
   }
 }
@@ -108,7 +108,7 @@ async function poll(requestKeyboard = false) {
     stateBox.classList.toggle('synced', synced);
     stateBox.classList.remove('offline', 'delayed');
     stateTitle.textContent = synced ? 'TV SYNCED' : 'PHONE READY';
-    stateCopy.textContent = synced ? `${String(data.tv.screen || 'SCREENGLO').replace('-', ' ')} on TV` : 'Playback will not be interrupted';
+    stateCopy.textContent = synced ? `${String(data.tv.screen || 'SCREENGLO').replace('-', ' ')} on TV` : 'TV app inactive';
     renderTvContext(data.tv, requestKeyboard);
     if (data.tv?.selectedId && selected?.item?.id !== data.tv.selectedId) {
       const card = document.querySelector(`[data-id="${CSS.escape(data.tv.selectedId)}"]`);

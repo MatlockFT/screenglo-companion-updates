@@ -1,8 +1,8 @@
 {
   "release": {
     "version": "0.9.19",
-    "publishedAt": "2026-08-27T22:14:35.830Z",
-    "notes": "SCREENGLO 0.9.19 adds the Windows tray icon with Open, Restart, Logs, Exit and automatic recovery; Phone Control edge-swipe Back and Forward; clear TV App, Windows Companion, and Phone Control version status; and faster Letterboxd recommendations with progressive TV loading.",
+    "publishedAt": "2026-08-27T22:15:49.343Z",
+    "notes": "SCREENGLO 0.9.19 adds the Windows tray icon with Open, Restart, Logs, Exit and automatic recovery; Phone Control edge-swipe Back and Forward; clear TV App, Windows Companion, and Phone Control version status; faster Letterboxd recommendations; and concise interface copy.",
     "baseUrl": "https://raw.githubusercontent.com/MatlockFT/screenglo-companion-updates/main/releases/0.9.19/",
     "files": [
       {
@@ -27,13 +27,13 @@
       },
       {
         "path": "public/app.js",
-        "sha256": "fa6ef2b8b86363cf97faef5aa0480df4aa78930b0cb937b08c6ed7f0f28fa23b",
-        "size": 25305
+        "sha256": "ee10858313ccc9dff38b538788d0828c7ee85abe583626c3efd90321038d8ce0",
+        "size": 25199
       },
       {
         "path": "public/index.html",
-        "sha256": "133001d3b752f76e55fb25bffb8f8a86fbd5413a633cbd8ee04e03240d44987a",
-        "size": 7997
+        "sha256": "9bccb69e329c2dc8ea0598c17e7dc4ae92bf961d7ab400be568a04ad310aa5ae",
+        "size": 7961
       },
       {
         "path": "public/styles.css",
@@ -67,5 +67,5 @@
       }
     ]
   },
-  "signature": "KXyQVGCWDOJw/5oVaJBvNFBLD5ukJl+znZQyJ4ELzCkxA6r1fbcR+FR3qOOtYVeljuR0cpIvWwns4y3E9UCbCA=="
+  "signature": "zKh71xiO9zNIUteoFSKe7iSBa6AJJXUuNmHfredZa93k85Yg1ghaIl7Dofkz5ev2cpoynnDSkzr0nMcJFVfnBw=="
 }
