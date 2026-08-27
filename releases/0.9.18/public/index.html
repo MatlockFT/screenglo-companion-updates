@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#16090c">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <title>SCREENGLO</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon-192.png">
+  <link rel="apple-touch-icon" href="icon-192.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="shell">
+    <header class="brand-row">
+      <img src="logo.png" alt="SCREENGLO" class="logo">
+      <div class="header-actions">
+        <button class="connection" id="connection" type="button" aria-label="Connection status">
+          <span class="state-dot"></span><span><strong id="state-title">CONNECTING</strong><small id="state-copy">Finding your PC</small></span>
+        </button>
+        <button class="settings-shortcut" data-view="settings" type="button" aria-label="Settings">⚙</button>
+      </div>
+    </header>
+
+    <section class="view active" id="control">
+      <div class="view-heading"><small>PHONE CONTROL</small><h1>Your TV, minus the tiny keyboard.</h1></div>
+      <section class="context-card" id="tv-context">
+        <div><small id="tv-context-label">TV STATUS</small><strong id="tv-context-title">Phone-only mode</strong><p id="tv-context-copy">Nothing on the TV will be interrupted.</p></div>
+        <form id="tv-input-form" class="tv-input hidden">
+          <input id="tv-input" maxlength="512" autocomplete="off" placeholder="Type or paste here">
+          <button type="submit">SEND</button>
+        </form>
+      </section>
+      <section class="remote-card" aria-label="SCREENGLO remote">
+        <button class="direction up" data-command="up" aria-label="Up">▲</button>
+        <button class="direction left" data-command="left" aria-label="Left">◀</button>
+        <button class="select" data-command="select" aria-label="Select">OK</button>
+        <button class="direction right" data-command="right" aria-label="Right">▶</button>
+        <button class="direction down" data-command="down" aria-label="Down">▼</button>
+      </section>
+      <div class="remote-actions">
+        <button data-command="back">← BACK</button>
+        <button class="exit" data-command="exit">EXIT</button>
+      </div>
+    </section>
+
+    <section class="view" id="discover">
+      <div class="view-heading"><small>DISCOVER</small><h1>Find your next watch.</h1></div>
+      <form id="search-form" class="search-form">
+        <label><span class="sr-only">Search movies and TV</span><input id="search-input" minlength="2" maxlength="120" autocomplete="off" enterkeyhint="search" placeholder="Search movies + TV"></label>
+        <button type="submit" aria-label="Search">⌕</button>
+      </form>
+      <div class="sorts" aria-label="Sort results"><button class="sort active" data-sort="seeders">SEEDERS</button><button class="sort" data-sort="newest">NEWEST</button><button class="sort" data-sort="size">SIZE</button></div>
+      <p id="search-status" class="status" aria-live="polite"></p>
+      <section id="results" class="results"></section>
+      <section id="detail" class="detail hidden"></section>
+
+      <section id="recommendations" class="recommendations">
+        <div class="section-title"><div><small>LETTERBOXD WATCHLISTS</small><h2>What should we watch?</h2></div><div class="mini-actions"><button id="letterboxd-random" type="button">SURPRISE ME</button><button id="letterboxd-sync" type="button">SYNC</button></div></div>
+        <div class="letterboxd-filters" aria-label="Watchlist filters">
+          <button class="letterboxd-filter active" data-letterboxd-filter="all">FOR US</button>
+          <button class="letterboxd-filter" data-letterboxd-filter="both">BOTH SAVED</button>
+          <button class="letterboxd-filter" data-letterboxd-filter="tyler">TYLER</button>
+          <button class="letterboxd-filter" data-letterboxd-filter="gloria">GLORIA</button>
+          <button class="letterboxd-filter" data-letterboxd-filter="curated">LISTS</button>
+        </div>
+        <p id="letterboxd-status" class="status"></p>
+        <section id="letterboxd-list" class="letterboxd-list"></section>
+      </section>
+    </section>
+
+    <section class="view" id="downloads">
+      <div class="section-title"><div><small>NEWEST FIRST</small><h1>Downloads</h1></div><button id="refresh">REFRESH</button></div>
+      <p id="download-status" class="status" aria-live="polite"></p>
+      <section id="download-list" class="download-list"></section>
+    </section>
+
+    <section class="view" id="settings">
+      <div class="section-title"><div><small>LOCAL + PRIVATE</small><h1>Settings</h1></div><button class="close-settings" data-view="control">DONE</button></div>
+      <section class="settings-health">
+        <span class="state-dot"></span><div><strong>SCREENGLO Companion</strong><small id="companion-version">Checking version…</small></div>
+      </section>
+      <details class="settings-group">
+        <summary>Download PC <span>qBittorrent</span></summary>
+        <form id="settings-form" class="settings-form">
+          <label>HOST<input id="qbit-host" placeholder="127.0.0.1"></label>
+          <label>PORT<input id="qbit-port" inputmode="numeric" placeholder="8080"></label>
+          <label class="check"><input id="qbit-https" type="checkbox"> Use HTTPS</label>
+          <label>API KEY<input id="qbit-key" type="password" autocomplete="off" placeholder="Saved securely — enter only to replace"></label>
+          <label>DOWNLOAD CATEGORY<input id="category" placeholder="movies"></label>
+          <button type="submit">SAVE + TEST</button>
+        </form>
+        <p id="settings-status" class="status"></p>
+      </details>
+      <details class="settings-group">
+        <summary>Movie information <span>TMDB + Letterboxd</span></summary>
+        <div class="settings-form metadata-settings">
+          <label>TMDB READ TOKEN<input id="tmdb-token" type="password" autocomplete="off" placeholder="Saved securely — enter only to replace"></label>
+          <label>TYLER<input id="letterboxd-tyler" autocomplete="off" value="xMATLOCKx"></label>
+          <label>GLORIA<input id="letterboxd-gloria" autocomplete="off" value="gloriaileana"></label>
+          <label>CURATED LIST URLS<textarea id="letterboxd-lists" rows="3" placeholder="One public Letterboxd list URL per line"></textarea></label>
+          <p id="letterboxd-settings-status" class="explain">No Letterboxd password is used or stored.</p>
+          <button id="save-metadata" class="settings-save" type="button">SAVE MOVIE INFO</button>
+        </div>
+      </details>
+      <section class="update-card">
+        <small>SIGNED UPDATES</small><h2>Companion updates</h2>
+        <p id="update-copy">Checking the secure release channel…</p>
+        <button id="update-companion" type="button">CHECK FOR UPDATE</button>
+      </section>
+      <button id="install" class="install hidden">ADD SCREENGLO TO THIS PHONE</button>
+    </section>
+  </main>
+
+  <nav class="bottom-nav" aria-label="SCREENGLO sections">
+    <button class="tab active" data-view="control"><span>●</span>CONTROL</button>
+    <button class="tab" data-view="discover"><span>⌕</span>DISCOVER</button>
+    <button class="tab" data-view="downloads"><span>↓</span>DOWNLOADS</button>
+  </nav>
+  <script src="app.js" defer></script>
+</body>
+</html>

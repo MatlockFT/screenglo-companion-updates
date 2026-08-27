@@ -1,18 +1,18 @@
 {
   "release": {
-    "version": "0.9.17",
-    "publishedAt": "2026-08-27T17:26:22.680Z",
-    "notes": "Connection and Cohesion: resilient PC heartbeat and update rollback, unified phone Control/Discover/Downloads, download controls and live progress, synchronized sorting and TV text entry, polished recommendations, and premium connection-state feedback.",
-    "baseUrl": "https://raw.githubusercontent.com/MatlockFT/screenglo-companion-updates/main/releases/0.9.17/",
+    "version": "0.9.18",
+    "publishedAt": "2026-08-27T21:52:12.552Z",
+    "notes": "Discover navigation: visible back control, iPhone edge-swipe back gesture, and Discover-tab reset to recommendations. Includes the resilient connection, download controls, and update recovery improvements from 0.9.17.",
+    "baseUrl": "https://raw.githubusercontent.com/MatlockFT/screenglo-companion-updates/main/releases/0.9.18/",
     "files": [
       {
         "path": "server.js",
-        "sha256": "3ad414a86debfa0819e1ea2ab863087cdae0edf3988537a5f4a0fedcfc60a765",
+        "sha256": "d0cd06334fc5789ac935e1551aa54e70ab229efaf1dcff508343f36359f8fa4e",
         "size": 41932
       },
       {
         "path": "package.json",
-        "sha256": "185233ba9bfbd0e67b2a7c6340a6daf89027b0a44e8bd3c02128e14c0c8c0833",
+        "sha256": "3f690c1f611e63b69a43be57c2aadcc1cef6e2b8c2224dc81333955e21312355",
         "size": 225
       },
       {
@@ -27,8 +27,8 @@
       },
       {
         "path": "public/app.js",
-        "sha256": "72bc373af655a53e8267c0cf2dd767502e55462a9673eb8194fddb1508c85701",
-        "size": 20722
+        "sha256": "4b210a6bb8114cb878cf4e751c0e6213f59d958227dd6b072b6386920e408232",
+        "size": 22413
       },
       {
         "path": "public/index.html",
@@ -37,12 +37,12 @@
       },
       {
         "path": "public/styles.css",
-        "sha256": "96fed2aeed615e51a1c9e8dc6edbc737b14fbaf284620ecde7da3ff0aab0431a",
-        "size": 15615
+        "sha256": "0f71369a75684a560a86de139105ecbefa95e56e79ae212c7fa8d51286a21e89",
+        "size": 16073
       },
       {
         "path": "public/sw.js",
-        "sha256": "d0040568aa104eb5f782f98dda83b1e72f77e57e80ecc824975b5002e9fde2d6",
+        "sha256": "a357fded6f0ff03271ef1f8c04630ddf576378f37b5039962562695d73284650",
         "size": 702
       },
       {
@@ -67,5 +67,5 @@
       }
     ]
   },
-  "signature": "+lkgkilpQGGNUhq1z0ShV/zFsP4WDsda+d+fuYi33CnXq00FUzRyRhwciNMtDJ1QPq0bvpK1Zgv9+6UQZ1b0AQ=="
+  "signature": "tfDopTtwTV9Z6lEO+mkNkSpcfkOF2aIWvt1bDY77tQ0rkzI4a0SRhvszHN5jqheBkgsW9HZwvZdvmpIcd6VEBw=="
 }
