@@ -1,18 +1,18 @@
 {
   "release": {
-    "version": "0.9.15",
-    "publishedAt": "2026-08-26T22:15:58.779Z",
-    "notes": "Public Letterboxd ratings, Tyler and Gloria watched states, shared watchlists, curated lists, and the new For Us view.",
-    "baseUrl": "https://raw.githubusercontent.com/MatlockFT/screenglo-companion-updates/main/releases/0.9.15/",
+    "version": "0.9.17",
+    "publishedAt": "2026-08-27T17:26:22.680Z",
+    "notes": "Connection and Cohesion: resilient PC heartbeat and update rollback, unified phone Control/Discover/Downloads, download controls and live progress, synchronized sorting and TV text entry, polished recommendations, and premium connection-state feedback.",
+    "baseUrl": "https://raw.githubusercontent.com/MatlockFT/screenglo-companion-updates/main/releases/0.9.17/",
     "files": [
       {
         "path": "server.js",
-        "sha256": "a247ea3c485ad07fd8c0327900bccabee786fb8e4aeeb4421bc0b3dbcb9f8210",
-        "size": 39329
+        "sha256": "3ad414a86debfa0819e1ea2ab863087cdae0edf3988537a5f4a0fedcfc60a765",
+        "size": 41932
       },
       {
         "path": "package.json",
-        "sha256": "528c39a9743ac2c6edc5dc1f5505560739110518decf638f51b15a93f17e7564",
+        "sha256": "185233ba9bfbd0e67b2a7c6340a6daf89027b0a44e8bd3c02128e14c0c8c0833",
         "size": 225
       },
       {
@@ -22,27 +22,27 @@
       },
       {
         "path": "apply-update.ps1",
-        "sha256": "f94b567e409589933ff89d73418f4c6a62325fe7492bff1415109fa80e79cd12",
-        "size": 2081
+        "sha256": "e70876ea2998e89e14100904df80b43c6117acaaaa1f3d43ed1d46d463448448",
+        "size": 3311
       },
       {
         "path": "public/app.js",
-        "sha256": "7de741560eb3e17cea42670dbaf753ac934ccbeccf717d3435d29c38d52bdb53",
-        "size": 13729
+        "sha256": "72bc373af655a53e8267c0cf2dd767502e55462a9673eb8194fddb1508c85701",
+        "size": 20722
       },
       {
         "path": "public/index.html",
-        "sha256": "1a4aca1d81321fe019d8daf5c6a521c1a966daccffb7143baacce26e1bb7754a",
-        "size": 6210
+        "sha256": "08cf57c0c1ff98a72e032e3d70ae6d22f4f7cc3351b7ae1b719720a35bbdc4ee",
+        "size": 7538
       },
       {
         "path": "public/styles.css",
-        "sha256": "a9e32ca29b2282e094414dc9b93912083b9f3c13d7da688e60bc16503ce45b8e",
-        "size": 8912
+        "sha256": "96fed2aeed615e51a1c9e8dc6edbc737b14fbaf284620ecde7da3ff0aab0431a",
+        "size": 15615
       },
       {
         "path": "public/sw.js",
-        "sha256": "e39c2619177c202da70c36bae66cbaea469ad42e434964560bf38c5702224862",
+        "sha256": "d0040568aa104eb5f782f98dda83b1e72f77e57e80ecc824975b5002e9fde2d6",
         "size": 702
       },
       {
@@ -67,5 +67,5 @@
       }
     ]
   },
-  "signature": "WmgdoPBD2iEcg7Z+nWaCahMJixqCRwql2qSI3/xMHQ3rLvmrJsg0f/kyvzB3JEJFYfoZKOHIm9b0/PiVckNyBg=="
+  "signature": "+lkgkilpQGGNUhq1z0ShV/zFsP4WDsda+d+fuYi33CnXq00FUzRyRhwciNMtDJ1QPq0bvpK1Zgv9+6UQZ1b0AQ=="
 }
