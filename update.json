@@ -1,23 +1,23 @@
 {
   "release": {
-    "version": "0.10.1",
-    "publishedAt": "2026-08-28T07:06:04.706Z",
-    "notes": "Polishes internal playback metadata and adds a tray-level fallback that completes signed updates if the background restart stalls.",
-    "baseUrl": "https://raw.githubusercontent.com/MatlockFT/screenglo-companion-updates/main/releases/0.10.1/",
+    "version": "0.10.2",
+    "publishedAt": "2026-08-28T20:57:09.299Z",
+    "notes": "Caption controls, reliable live downloads, Skip Intro, and icon polish.",
+    "baseUrl": "https://raw.githubusercontent.com/MatlockFT/screenglo-companion-updates/main/releases/0.10.2/",
     "files": [
       {
         "path": "server.js",
-        "sha256": "e45bab1c7ab73fd4ef8203d8c3c67c28910530f552238a24f202d391f86bad13",
-        "size": 58707
+        "sha256": "994c2325a117ea73c23379d492e0ed73def4021cfd5b569361829a80b0b7a5e3",
+        "size": 67593
       },
       {
         "path": "package.json",
-        "sha256": "81a1384b3fdb5111ca148874f5dc4ec6c0c72f2cc43f00d0aeeb7798a03fba12",
+        "sha256": "bf8c3a98f7e68c7e814914050e10ec45eddc13a5cf8aefff02a271541f123528",
         "size": 225
       },
       {
         "path": "start.ps1",
-        "sha256": "37d889a1954b6605803ea4ea51d45279642d2de6ba66d2d2c50443253e54407a",
+        "sha256": "7396595bf893b43a477b988093a324f8abdd3fd76522697f879cfa9e4f2b29be",
         "size": 8808
       },
       {
@@ -27,23 +27,23 @@
       },
       {
         "path": "public/app.js",
-        "sha256": "812148df90d234207b7c8b15e92c4845090b3bdaf7a2e276e0997104e1dec871",
-        "size": 26522
+        "sha256": "8d9d1048d9e2364e333ef090728c3072afd93609e106f0df2a358adc5d696240",
+        "size": 26639
       },
       {
         "path": "public/index.html",
-        "sha256": "22477f2f9b455daff4b99643b341bec18084bf944797d25cc87b6a7a6e98ace8",
-        "size": 8184
+        "sha256": "f8b9ba5e3d7c16361508fb1debcdd0a2a1d8b40ec05afdc6efd531d073325e06",
+        "size": 11540
       },
       {
         "path": "public/styles.css",
-        "sha256": "5e75ce8c9fc6686dc3250c8fa0f4a1fdb464350e2e9f567c2e1569e66f9b66d7",
-        "size": 17109
+        "sha256": "b1cdac80a0195a21071a73045b672fbd456663b06408f58391962ae76e06b97e",
+        "size": 17423
       },
       {
         "path": "public/sw.js",
-        "sha256": "9fec60bd0701ff785da5c66a8c5243349cc80b451e8d84124df30e1bd55523d4",
-        "size": 718
+        "sha256": "9ddf4bcf911d38daa6ea5f3f421f3519d0d903442d809a9f355a2ff6b1327522",
+        "size": 716
       },
       {
         "path": "public/manifest.webmanifest",
@@ -67,5 +67,5 @@
       }
     ]
   },
-  "signature": "7vZG/4We/e9RaEGK86yIlEgD2IQFdnBcQFgeAEi01MMBV2zKbWNCTTinhAvnmovJmO4PuNGijjwLAKCIaQaEDQ=="
+  "signature": "tnDTP8xFogic3n3BtRelpQt5qT32K8uAkzBJ8A5snoBYmcX762hi+BfSt0SUW1JtsA0ZXSRQahizbkgsZunIDw=="
 }
