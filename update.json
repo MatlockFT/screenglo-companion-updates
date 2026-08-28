@@ -1,23 +1,23 @@
 {
   "release": {
-    "version": "0.10.4",
-    "publishedAt": "2026-08-28T21:09:02.654Z",
-    "notes": "Verified updater handoff with fresh release checks.",
-    "baseUrl": "https://raw.githubusercontent.com/MatlockFT/screenglo-companion-updates/main/releases/0.10.4/",
+    "version": "0.11.0",
+    "publishedAt": "2026-08-28T23:02:14.913Z",
+    "notes": "Live download updates, smoother player seeking, remembered audio tracks, and playback compatibility preflight.",
+    "baseUrl": "https://raw.githubusercontent.com/MatlockFT/screenglo-companion-updates/main/releases/0.11.0/",
     "files": [
       {
         "path": "server.js",
-        "sha256": "04c6cb136867ca6cd41e749d93a4b2f9b893e633080255c4e7644cdfad12f37f",
-        "size": 67938
+        "sha256": "f65fababeebd8c55c15514e213cab76c554325c01ff3c7db33c04a55cf5015e4",
+        "size": 72114
       },
       {
         "path": "package.json",
-        "sha256": "80a8e9fff24bd29a746b4bda4f0c71cd55d7e9a720a4d99fd5e91b83b8b1d103",
+        "sha256": "9867a4c83f5d0119ce9f659336fb264dd0636a595a2afbfaed70d0108d79b91b",
         "size": 225
       },
       {
         "path": "start.ps1",
-        "sha256": "787b8fbc14facfad6702b7b57597f3a6420768b6fecaefc9c79d6153886d757e",
+        "sha256": "043f152a1a829a28d0b65d19b486091d4a627400864b56182e6625e5401da970",
         "size": 8808
       },
       {
@@ -27,8 +27,8 @@
       },
       {
         "path": "public/app.js",
-        "sha256": "8d9d1048d9e2364e333ef090728c3072afd93609e106f0df2a358adc5d696240",
-        "size": 26639
+        "sha256": "2c2ea92448d5337d05661999c0cf7485aec3760c93adf6c72b2d96456c2ab313",
+        "size": 26987
       },
       {
         "path": "public/index.html",
@@ -42,8 +42,8 @@
       },
       {
         "path": "public/sw.js",
-        "sha256": "8d937cd3396f631b2a044f009e85a47c5858d4d6e221f4b3269f328a6d39fdfe",
-        "size": 716
+        "sha256": "2552830b393f82cf5714f1a8f9599de84f3a284be05f5a8c11e29841601b52e5",
+        "size": 714
       },
       {
         "path": "public/manifest.webmanifest",
@@ -67,5 +67,5 @@
       }
     ]
   },
-  "signature": "VP6HFiYXQcK79whgy2OszEjz+uBRstPCryMru7z+XZyVtgjwzwkB1kD3guo8itgkjLegjPEbxSmElm6mpSU8BA=="
+  "signature": "peAsYNJU1+H9IqOdC+/2Vc/axzm7DqMfREahuYd/FaBsQQRramrH1phiAOohrcHywLK7L/k2B2oufpCw6EbwBA=="
 }
