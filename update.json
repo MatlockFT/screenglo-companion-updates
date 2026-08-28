@@ -1,23 +1,23 @@
 {
   "release": {
-    "version": "0.10.2",
-    "publishedAt": "2026-08-28T20:57:09.299Z",
-    "notes": "Caption controls, reliable live downloads, Skip Intro, and icon polish.",
-    "baseUrl": "https://raw.githubusercontent.com/MatlockFT/screenglo-companion-updates/main/releases/0.10.2/",
+    "version": "0.10.3",
+    "publishedAt": "2026-08-28T21:05:11.500Z",
+    "notes": "Reliable one-click updater handoff.",
+    "baseUrl": "https://raw.githubusercontent.com/MatlockFT/screenglo-companion-updates/main/releases/0.10.3/",
     "files": [
       {
         "path": "server.js",
-        "sha256": "994c2325a117ea73c23379d492e0ed73def4021cfd5b569361829a80b0b7a5e3",
-        "size": 67593
+        "sha256": "70b8728b9b02beb8b93347a5e7754ddf1d24c93f94365d44c0fd2eccfdb4b53b",
+        "size": 67802
       },
       {
         "path": "package.json",
-        "sha256": "bf8c3a98f7e68c7e814914050e10ec45eddc13a5cf8aefff02a271541f123528",
+        "sha256": "6663818d187826ea3048e93d51842d87944a4af4057bf1d05c1ec63e91a4eb81",
         "size": 225
       },
       {
         "path": "start.ps1",
-        "sha256": "7396595bf893b43a477b988093a324f8abdd3fd76522697f879cfa9e4f2b29be",
+        "sha256": "4d2386a6b99b113d411ae735b8fa7ebcb8acb683ed4d670c7afd6055a26ae914",
         "size": 8808
       },
       {
@@ -42,7 +42,7 @@
       },
       {
         "path": "public/sw.js",
-        "sha256": "9ddf4bcf911d38daa6ea5f3f421f3519d0d903442d809a9f355a2ff6b1327522",
+        "sha256": "2aee8d26e9adb7f9091b4342b861aa40f7b8d8b9975a0680923fb8dbac9ee0b1",
         "size": 716
       },
       {
@@ -67,5 +67,5 @@
       }
     ]
   },
-  "signature": "tnDTP8xFogic3n3BtRelpQt5qT32K8uAkzBJ8A5snoBYmcX762hi+BfSt0SUW1JtsA0ZXSRQahizbkgsZunIDw=="
+  "signature": "8rDp7ajMwiuPkJM+EK+g9PYcQUs8pHrj3GMYi2RJV09rUQVbQu4h52xF8VSMIEbtQHLFi7REKZuL70Ic5Qm3CQ=="
 }
