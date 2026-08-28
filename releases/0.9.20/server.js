@@ -553,10 +553,20 @@ async function stageUpdate(descriptor) {
 }
 function scheduleUpdate(staging, version) {
   setTimeout(() => {
-    const updater = path.join(ROOT, 'apply-update.ps1');
-    const child = spawn('powershell.exe', ['-NoProfile', '-WindowStyle', 'Hidden', '-ExecutionPolicy', 'Bypass', '-File', updater, '-StagingPath', staging, '-Version', version], { detached: true, stdio: 'ignore', windowsHide: true });
-    child.unref();
-    setTimeout(() => server.close(() => process.exit(0)), 250);
+    try {
+      const updater = path.join(ROOT, 'apply-update.ps1');
+      const child = spawn('powershell.exe', ['-NoProfile', '-WindowStyle', 'Hidden', '-ExecutionPolicy', 'Bypass', '-File', updater, '-StagingPath', staging, '-Version', version], { detached: true, stdio: 'ignore', windowsHide: true });
+      child.once('error', error => {
+        fs.writeFileSync(UPDATE_STATUS_FILE, JSON.stringify({ state: 'failed', version, message: `Could not start the updater: ${error.message}` }));
+      });
+      child.once('spawn', () => {
+        child.unref();
+        // Give detached PowerShell time to open and lock onto the staged payload before this server exits.
+        setTimeout(() => server.close(() => process.exit(0)), 1_500);
+      });
+    } catch (error) {
+      fs.writeFileSync(UPDATE_STATUS_FILE, JSON.stringify({ state: 'failed', version, message: `Could not start the updater: ${error.message}` }));
+    }
   }, 500);
 }
 function cleanTitle(title) {
