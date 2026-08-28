@@ -1,23 +1,23 @@
 {
   "release": {
-    "version": "0.9.21",
-    "publishedAt": "2026-08-28T05:54:31.841Z",
-    "notes": "Quiet qBittorrent sleep detection: waits for three confirmed failures, preserves downloads, and recovers automatically.",
-    "baseUrl": "https://raw.githubusercontent.com/MatlockFT/screenglo-companion-updates/main/releases/0.9.21/",
+    "version": "0.10.0",
+    "publishedAt": "2026-08-28T06:56:32.749Z",
+    "notes": "Adds secure local playback streaming, embedded and sidecar subtitle support, and optional OpenSubtitles search for the SCREENGLO TV player.",
+    "baseUrl": "https://raw.githubusercontent.com/MatlockFT/screenglo-companion-updates/main/releases/0.10.0/",
     "files": [
       {
         "path": "server.js",
-        "sha256": "a346c4527d5a8469e4d3bdbe2e14b7e30022e847e2f36b7eca0a598509962113",
-        "size": 44714
+        "sha256": "11ae29293ecfc22acfe1a66b10806055681f2f356c69f65c64a2c62a3e8f354d",
+        "size": 58244
       },
       {
         "path": "package.json",
-        "sha256": "e934f241041ef0fac10d6936ee9a21997f519a313501b8f2eb475962ddb50167",
+        "sha256": "0107579d6635b5d63648460c758f54165f250978803d1e54a79e14cb140fd9da",
         "size": 225
       },
       {
         "path": "start.ps1",
-        "sha256": "e29c4821575dabf3d789df3c67a713b936676c3b2efb715a3e5507a3c468df17",
+        "sha256": "e0deb287dbb73bfbc3b5f2f05671eb6558e9f500ad18b14ac03925458e741ce8",
         "size": 7571
       },
       {
@@ -27,13 +27,13 @@
       },
       {
         "path": "public/app.js",
-        "sha256": "df2ce810783b4049a3d80ec136989ca68b0352aa59fbbecaaca8182d845bf5d3",
-        "size": 26272
+        "sha256": "812148df90d234207b7c8b15e92c4845090b3bdaf7a2e276e0997104e1dec871",
+        "size": 26522
       },
       {
         "path": "public/index.html",
-        "sha256": "92604b33719d224be214d8ae577b6a4c4c993454fb0389f6da3e73106bf02861",
-        "size": 8004
+        "sha256": "22477f2f9b455daff4b99643b341bec18084bf944797d25cc87b6a7a6e98ace8",
+        "size": 8184
       },
       {
         "path": "public/styles.css",
@@ -42,8 +42,8 @@
       },
       {
         "path": "public/sw.js",
-        "sha256": "24d0571c8bb49c4d6259929b8f9ed700c1321ee3b27a4cfd20c5d77cf9a83079",
-        "size": 711
+        "sha256": "16f3b76607aeab993d988932cc3f1ce107ed6e07f447fb658504aa0594a26fe1",
+        "size": 718
       },
       {
         "path": "public/manifest.webmanifest",
@@ -67,5 +67,5 @@
       }
     ]
   },
-  "signature": "6K7GJD9cGV4HSu+MgPnq902/HXPBrX5LspWWRdSF77BRtE6TGCrOfL0Ii/cdvjuQsKtEDNs7+Af3Oo8132a9AQ=="
+  "signature": "74Y8elMGf+LlNXoDDMnECo50TVy23CRo733TzpJCpXVdUSrGv+WIS1Q6d27NvSYEGIo/QoRZUxzOnREWZ2k/Aw=="
 }
