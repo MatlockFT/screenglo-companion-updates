@@ -1,18 +1,18 @@
 {
   "release": {
-    "version": "0.9.19",
-    "publishedAt": "2026-08-27T22:15:49.343Z",
-    "notes": "SCREENGLO 0.9.19 adds the Windows tray icon with Open, Restart, Logs, Exit and automatic recovery; Phone Control edge-swipe Back and Forward; clear TV App, Windows Companion, and Phone Control version status; faster Letterboxd recommendations; and concise interface copy.",
-    "baseUrl": "https://raw.githubusercontent.com/MatlockFT/screenglo-companion-updates/main/releases/0.9.19/",
+    "version": "0.9.20",
+    "publishedAt": "2026-08-28T01:00:58.576Z",
+    "notes": "Cute minimal TV and Phone polish, reliable TV downloads through Windows Companion, visible Letterboxd picks, and smoother swipe navigation.",
+    "baseUrl": "https://raw.githubusercontent.com/MatlockFT/screenglo-companion-updates/main/releases/0.9.20/",
     "files": [
       {
         "path": "server.js",
-        "sha256": "8588cb811164e46e6176bef2a99afaf349ba39a7b779648a716a0909a8f71947",
-        "size": 42665
+        "sha256": "717556a871d289ed33baaffb16776b5aed824b278fb85b0a6fd5001ff95db2e3",
+        "size": 42863
       },
       {
         "path": "package.json",
-        "sha256": "e74f3bef19b89d644e29f4a1c1a72338fdd8bb70453836f1a133e135db2a769e",
+        "sha256": "02f95f320b52dd3f2cce2f7a5fa3eaafa62a61bd8afb393fa463021e6e78b313",
         "size": 225
       },
       {
@@ -27,23 +27,23 @@
       },
       {
         "path": "public/app.js",
-        "sha256": "ee10858313ccc9dff38b538788d0828c7ee85abe583626c3efd90321038d8ce0",
-        "size": 25199
+        "sha256": "3a37c4d89333e122c898e57a7f0ecbdc28829e363d0c55dc79e537b2dfe0a341",
+        "size": 25513
       },
       {
         "path": "public/index.html",
-        "sha256": "9bccb69e329c2dc8ea0598c17e7dc4ae92bf961d7ab400be568a04ad310aa5ae",
-        "size": 7961
+        "sha256": "335ea4dcad1afefc508ff19197508ff39a85940cecfa3a8e20869c0afc709ed3",
+        "size": 7938
       },
       {
         "path": "public/styles.css",
-        "sha256": "607d35650324420742bddec22489c54289ca6007d4afb076192be784987707ed",
-        "size": 16349
+        "sha256": "5e75ce8c9fc6686dc3250c8fa0f4a1fdb464350e2e9f567c2e1569e66f9b66d7",
+        "size": 17109
       },
       {
         "path": "public/sw.js",
-        "sha256": "5f3bc5b94e00d4fe829d2dcb5308a41c4125775f9e3e651064f6bbc79a561442",
-        "size": 711
+        "sha256": "2de9925041c93d2530f3bfeec383c8945921078bdd89ccfdba525481c3b3803e",
+        "size": 715
       },
       {
         "path": "public/manifest.webmanifest",
@@ -67,5 +67,5 @@
       }
     ]
   },
-  "signature": "zKh71xiO9zNIUteoFSKe7iSBa6AJJXUuNmHfredZa93k85Yg1ghaIl7Dofkz5ev2cpoynnDSkzr0nMcJFVfnBw=="
+  "signature": "EaGGWeVwfCRDhNcNIUAUkzNUlgIyY6PTJSyMCwGtaW9ijXcfFlfODJpmw0wuYAc70K/5kSQSk+EETNv5mkqDBw=="
 }
