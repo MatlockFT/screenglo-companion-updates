@@ -608,7 +608,9 @@ function verifyUpdateDescriptor(descriptor) {
   return release;
 }
 async function updateDescriptor() {
-  const descriptor = await fetchJson(UPDATE_MANIFEST_URL, { headers: { accept: 'application/json', 'user-agent': `SCREENGLO-Companion/${VERSION}` } });
+  const manifestUrl = new URL(UPDATE_MANIFEST_URL);
+  manifestUrl.searchParams.set('checked', String(Date.now()));
+  const descriptor = await fetchJson(manifestUrl, { headers: { accept: 'application/json', 'cache-control': 'no-cache', 'user-agent': `SCREENGLO-Companion/${VERSION}` } });
   const release = verifyUpdateDescriptor(descriptor);
   return { descriptor, release, available: compareVersions(release.version, VERSION) > 0 };
 }

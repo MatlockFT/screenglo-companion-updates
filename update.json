@@ -1,14 +1,14 @@
 {
   "release": {
     "version": "0.10.4",
-    "publishedAt": "2026-08-28T21:07:37.821Z",
-    "notes": "Verified one-click Windows updater handoff.",
+    "publishedAt": "2026-08-28T21:09:02.654Z",
+    "notes": "Verified updater handoff with fresh release checks.",
     "baseUrl": "https://raw.githubusercontent.com/MatlockFT/screenglo-companion-updates/main/releases/0.10.4/",
     "files": [
       {
         "path": "server.js",
-        "sha256": "9ed49a310cd56e1a9d5d03bb9c5365598642de1f9aa658f5ea24ea3a26c34544",
-        "size": 67802
+        "sha256": "04c6cb136867ca6cd41e749d93a4b2f9b893e633080255c4e7644cdfad12f37f",
+        "size": 67938
       },
       {
         "path": "package.json",
@@ -67,5 +67,5 @@
       }
     ]
   },
-  "signature": "3oIFr5EyhtT0M7aoRda3J3HRke2UOqou4pQKshtlOKYZ8Ne3AGB+PXIt8upr7sbKV+EGP5EVkMZPJshs0G0/DA=="
+  "signature": "VP6HFiYXQcK79whgy2OszEjz+uBRstPCryMru7z+XZyVtgjwzwkB1kD3guo8itgkjLegjPEbxSmElm6mpSU8BA=="
 }
