@@ -1,24 +1,24 @@
 {
   "release": {
-    "version": "0.10.0",
-    "publishedAt": "2026-08-28T06:56:32.749Z",
-    "notes": "Adds secure local playback streaming, embedded and sidecar subtitle support, and optional OpenSubtitles search for the SCREENGLO TV player.",
-    "baseUrl": "https://raw.githubusercontent.com/MatlockFT/screenglo-companion-updates/main/releases/0.10.0/",
+    "version": "0.10.1",
+    "publishedAt": "2026-08-28T07:06:04.706Z",
+    "notes": "Polishes internal playback metadata and adds a tray-level fallback that completes signed updates if the background restart stalls.",
+    "baseUrl": "https://raw.githubusercontent.com/MatlockFT/screenglo-companion-updates/main/releases/0.10.1/",
     "files": [
       {
         "path": "server.js",
-        "sha256": "11ae29293ecfc22acfe1a66b10806055681f2f356c69f65c64a2c62a3e8f354d",
-        "size": 58244
+        "sha256": "e45bab1c7ab73fd4ef8203d8c3c67c28910530f552238a24f202d391f86bad13",
+        "size": 58707
       },
       {
         "path": "package.json",
-        "sha256": "0107579d6635b5d63648460c758f54165f250978803d1e54a79e14cb140fd9da",
+        "sha256": "81a1384b3fdb5111ca148874f5dc4ec6c0c72f2cc43f00d0aeeb7798a03fba12",
         "size": 225
       },
       {
         "path": "start.ps1",
-        "sha256": "e0deb287dbb73bfbc3b5f2f05671eb6558e9f500ad18b14ac03925458e741ce8",
-        "size": 7571
+        "sha256": "37d889a1954b6605803ea4ea51d45279642d2de6ba66d2d2c50443253e54407a",
+        "size": 8808
       },
       {
         "path": "apply-update.ps1",
@@ -42,7 +42,7 @@
       },
       {
         "path": "public/sw.js",
-        "sha256": "16f3b76607aeab993d988932cc3f1ce107ed6e07f447fb658504aa0594a26fe1",
+        "sha256": "9fec60bd0701ff785da5c66a8c5243349cc80b451e8d84124df30e1bd55523d4",
         "size": 718
       },
       {
@@ -67,5 +67,5 @@
       }
     ]
   },
-  "signature": "74Y8elMGf+LlNXoDDMnECo50TVy23CRo733TzpJCpXVdUSrGv+WIS1Q6d27NvSYEGIo/QoRZUxzOnREWZ2k/Aw=="
+  "signature": "7vZG/4We/e9RaEGK86yIlEgD2IQFdnBcQFgeAEi01MMBV2zKbWNCTTinhAvnmovJmO4PuNGijjwLAKCIaQaEDQ=="
 }
