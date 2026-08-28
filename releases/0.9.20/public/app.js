@@ -82,13 +82,15 @@ $$('[data-view]').forEach(button => button.addEventListener('click', () => {
 }));
 
 function renderTvContext(tv, requestKeyboard = false) {
-  const form = $('#tv-input-form'), input = $('#tv-input');
+  const context = $('#tv-context'), form = $('#tv-input-form'), input = $('#tv-input');
   if (!tv?.foreground) {
+    context.classList.remove('hidden');
     $('#tv-context-label').textContent = 'PHONE-ONLY MODE';
     $('#tv-context-title').textContent = 'TV app inactive';
     $('#tv-context-copy').textContent = 'Search and downloads remain available.';
     form.classList.add('hidden');
   } else if (tv.editing) {
+    context.classList.remove('hidden');
     const field = tv.field || 'TV field';
     $('#tv-context-label').textContent = 'TV KEYBOARD';
     $('#tv-context-title').textContent = field;
@@ -97,6 +99,7 @@ function renderTvContext(tv, requestKeyboard = false) {
     input.placeholder = `Type for ${field}`;
     if (requestKeyboard) { input.focus({ preventScroll: true }); input.setSelectionRange(input.value.length, input.value.length); }
   } else {
+    context.classList.add('hidden');
     $('#tv-context-label').textContent = String(tv.screen || 'SCREENGLO').toUpperCase();
     $('#tv-context-title').textContent = 'TV connected';
     $('#tv-context-copy').textContent = 'Select a TV text field to type from this phone.';
