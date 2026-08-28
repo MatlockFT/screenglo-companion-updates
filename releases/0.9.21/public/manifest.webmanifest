@@ -1,0 +1,12 @@
+{
+  "name": "SCREENGLO Phone Control",
+  "short_name": "SCREENGLO",
+  "description": "Search, control the TV, and manage downloads on your home network.",
+  "display": "standalone",
+  "background_color": "#100708",
+  "theme_color": "#ff5278",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

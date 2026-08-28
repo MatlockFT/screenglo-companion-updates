@@ -1,23 +1,23 @@
 {
   "release": {
-    "version": "0.9.20",
-    "publishedAt": "2026-08-28T01:12:09.599Z",
-    "notes": "Cute minimal TV and Phone polish, reliable TV downloads through Windows Companion, visible Letterboxd picks, and smoother swipe navigation.",
-    "baseUrl": "https://raw.githubusercontent.com/MatlockFT/screenglo-companion-updates/main/releases/0.9.20/",
+    "version": "0.9.21",
+    "publishedAt": "2026-08-28T05:54:31.841Z",
+    "notes": "Quiet qBittorrent sleep detection: waits for three confirmed failures, preserves downloads, and recovers automatically.",
+    "baseUrl": "https://raw.githubusercontent.com/MatlockFT/screenglo-companion-updates/main/releases/0.9.21/",
     "files": [
       {
         "path": "server.js",
-        "sha256": "089080fe254152b26371e698d7c1a5522e015ebe515618675c39cca9cb5e953c",
-        "size": 43412
+        "sha256": "a346c4527d5a8469e4d3bdbe2e14b7e30022e847e2f36b7eca0a598509962113",
+        "size": 44714
       },
       {
         "path": "package.json",
-        "sha256": "02f95f320b52dd3f2cce2f7a5fa3eaafa62a61bd8afb393fa463021e6e78b313",
+        "sha256": "e934f241041ef0fac10d6936ee9a21997f519a313501b8f2eb475962ddb50167",
         "size": 225
       },
       {
         "path": "start.ps1",
-        "sha256": "882016ab917d55ac04f6938cdfdf57ccc8ef782a128e7285470f8a577a5c1917",
+        "sha256": "e29c4821575dabf3d789df3c67a713b936676c3b2efb715a3e5507a3c468df17",
         "size": 7571
       },
       {
@@ -27,8 +27,8 @@
       },
       {
         "path": "public/app.js",
-        "sha256": "ab0ecf838d9dfc1e42ac2eaefd14a3f2e5122dc1dcc8b81df02ba475466b915a",
-        "size": 25658
+        "sha256": "df2ce810783b4049a3d80ec136989ca68b0352aa59fbbecaaca8182d845bf5d3",
+        "size": 26272
       },
       {
         "path": "public/index.html",
@@ -42,8 +42,8 @@
       },
       {
         "path": "public/sw.js",
-        "sha256": "afc13713bedfaf25d8e1255f90c01f0052610af9c943db204f193f15ad9162f3",
-        "size": 717
+        "sha256": "24d0571c8bb49c4d6259929b8f9ed700c1321ee3b27a4cfd20c5d77cf9a83079",
+        "size": 711
       },
       {
         "path": "public/manifest.webmanifest",
@@ -67,5 +67,5 @@
       }
     ]
   },
-  "signature": "DD71LZArEq1dmWR0J8+2KJoXDMamG8adZru/oi48Optz3RuLMDqeMMsUXHk/GwbTWHlEuvGgxjfRzqEe49HhAg=="
+  "signature": "6K7GJD9cGV4HSu+MgPnq902/HXPBrX5LspWWRdSF77BRtE6TGCrOfL0Ii/cdvjuQsKtEDNs7+Af3Oo8132a9AQ=="
 }
