@@ -1,7 +1,7 @@
 {
   "release": {
     "version": "0.9.20",
-    "publishedAt": "2026-08-28T01:00:58.576Z",
+    "publishedAt": "2026-08-28T01:04:18.080Z",
     "notes": "Cute minimal TV and Phone polish, reliable TV downloads through Windows Companion, visible Letterboxd picks, and smoother swipe navigation.",
     "baseUrl": "https://raw.githubusercontent.com/MatlockFT/screenglo-companion-updates/main/releases/0.9.20/",
     "files": [
@@ -17,7 +17,7 @@
       },
       {
         "path": "start.ps1",
-        "sha256": "8ca9e6cdf86135d23a81ebdb8485180b399d00b23ebd430e9d7aa780d2363ba2",
+        "sha256": "882016ab917d55ac04f6938cdfdf57ccc8ef782a128e7285470f8a577a5c1917",
         "size": 7571
       },
       {
@@ -67,5 +67,5 @@
       }
     ]
   },
-  "signature": "EaGGWeVwfCRDhNcNIUAUkzNUlgIyY6PTJSyMCwGtaW9ijXcfFlfODJpmw0wuYAc70K/5kSQSk+EETNv5mkqDBw=="
+  "signature": "S3zg8qv5HhGA5twNVyKt0xlBGLviF1hZsXoBLsub82AZgMsq1m0A79Fk3+x0E/eagC11JNmsz7YJGRmBYHSkBw=="
 }

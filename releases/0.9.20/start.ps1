@@ -87,7 +87,7 @@ function Get-UpdateState {
 }
 
 function Set-RunningStatus {
-  @{ state = 'running'; version = '0.9.19'; message = 'SCREENGLO Companion and tray are running.'; startedAt = (Get-Date).ToString('o') } |
+  @{ state = 'running'; version = '0.9.20'; message = 'SCREENGLO Companion and tray are running.'; startedAt = (Get-Date).ToString('o') } |
     ConvertTo-Json | Set-Content -Encoding UTF8 $statusFile
 }
 
@@ -161,7 +161,7 @@ try {
     $notifyIcon.ShowBalloonTip(1600, 'SCREENGLO is running', 'Phone Control is available on your home network.', [System.Windows.Forms.ToolTipIcon]::Info)
   } catch {
     $notifyIcon.Text = 'SCREENGLO Companion - Needs attention'
-    @{ state = 'failed'; version = '0.9.19'; message = $_.Exception.Message; failedAt = (Get-Date).ToString('o') } |
+    @{ state = 'failed'; version = '0.9.20'; message = $_.Exception.Message; failedAt = (Get-Date).ToString('o') } |
       ConvertTo-Json | Set-Content -Encoding UTF8 $statusFile
     $notifyIcon.ShowBalloonTip(3500, 'SCREENGLO needs attention', 'Right-click the tray icon to retry or open the logs.', [System.Windows.Forms.ToolTipIcon]::Warning)
   }
