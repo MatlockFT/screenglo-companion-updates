@@ -1,23 +1,23 @@
 {
   "release": {
-    "version": "0.12.2",
-    "publishedAt": "2026-08-29T06:18:45.348Z",
-    "notes": "Robust rotating Letterboxd recommendations, source-level fallback caching, watched-history filtering, and a details-first What to Watch experience on phone and TV.",
-    "baseUrl": "https://raw.githubusercontent.com/MatlockFT/screenglo-companion-updates/main/releases/0.12.2/",
+    "version": "0.12.3",
+    "publishedAt": "2026-08-29T06:26:50.740Z",
+    "notes": "Fix Letterboxd picks cold-load timeouts by reducing metadata over-fetching and making TV recommendation requests more tolerant.",
+    "baseUrl": "https://raw.githubusercontent.com/MatlockFT/screenglo-companion-updates/main/releases/0.12.3/",
     "files": [
       {
         "path": "server.js",
-        "sha256": "894c60f48db15aff4aee623d261360d32925e8a00dfcbe05273b878ad22fda7b",
-        "size": 81531
+        "sha256": "697c775edcb5d9a8f4ae36fbd206f490e3431f545e7565aceda748c20735ca11",
+        "size": 81601
       },
       {
         "path": "package.json",
-        "sha256": "cc78fea2fcd996e4a9f06cd705ae523ea1e7dfa8a1c2cf247cfb091e8118eeb1",
+        "sha256": "9ac5731456a08638e4132b457f7a34ae4375040ef7acc61e35566ae1e49514e5",
         "size": 225
       },
       {
         "path": "start.ps1",
-        "sha256": "932c728af4ed6700ffeca13005d4e4a044fbd2f830e35bb4d37d8f2c38d6bd5f",
+        "sha256": "bddddf5c80300f6cbc2f5918e3fda4cde12d93efc78d172369d6b1b9fa5dd26b",
         "size": 8808
       },
       {
@@ -42,8 +42,8 @@
       },
       {
         "path": "public/sw.js",
-        "sha256": "3fb73e9358da1436ab1639c1416d54b46768c7a7e353eada6cb627d659879445",
-        "size": 716
+        "sha256": "3de6ed9752de8c4bca3e334457feb52fd77e601d71fbb2d2297ef8ed94bad193",
+        "size": 720
       },
       {
         "path": "public/manifest.webmanifest",
@@ -67,5 +67,5 @@
       }
     ]
   },
-  "signature": "TOjFLxFQnOAcWN1vkEvJte60yz9ehjiRhiD37Q4nswD7pRX0DUK2788h4SN/33TTdL+KxWc9gMYwzJ+RQf8cDw=="
+  "signature": "vkCcnFGIEyvGulpUAr0i1Vz2Y2CpwLap9hUiM3qFbQeZTQSJOLoCYNh2EbIAcEMnoT78Cbm3fIgWU3fGQgZIDQ=="
 }
