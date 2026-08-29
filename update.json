@@ -1,23 +1,23 @@
 {
   "release": {
-    "version": "0.12.4",
-    "publishedAt": "2026-08-29T06:31:08.577Z",
-    "notes": "Fix TV Letterboxd picks by decoding recommendation and poster responses off the Android UI thread; retain reduced cold-load batches.",
-    "baseUrl": "https://raw.githubusercontent.com/MatlockFT/screenglo-companion-updates/main/releases/0.12.4/",
+    "version": "0.12.5",
+    "publishedAt": "2026-08-29T06:40:21.721Z",
+    "notes": "Add pageable What to Watch browsing across the full combined Letterboxd pool on TV and phone, with totals and more-movies controls.",
+    "baseUrl": "https://raw.githubusercontent.com/MatlockFT/screenglo-companion-updates/main/releases/0.12.5/",
     "files": [
       {
         "path": "server.js",
-        "sha256": "a9737d48d881254e9649d5856a5ed5a0af6dc267841a8ae407264117d59eb807",
-        "size": 81601
+        "sha256": "becf5b75c2e4a2595fb89496ce0bc5826d307371fcdd362979271ebc5b98e036",
+        "size": 81902
       },
       {
         "path": "package.json",
-        "sha256": "39f709381816916009ffc06d54ea9c459110386c8a4797e1b74dea64d604f30f",
+        "sha256": "0b94a5f399db738afcb149d3b1a4736a879c61d09d409a40d05f30d0db96bfbc",
         "size": 225
       },
       {
         "path": "start.ps1",
-        "sha256": "50ab77a08121999fefce36da42071b9db925a37338750cd4d7059c13b32fea8f",
+        "sha256": "7ac7780e0533cbe2306b40740324ff0fd2fcdcc0ad3ff0e6b79110bea1ccc565",
         "size": 8808
       },
       {
@@ -27,23 +27,23 @@
       },
       {
         "path": "public/app.js",
-        "sha256": "b9c42581c15d61089a3d33850a97ea166ec55b8900e141c854313c8274031144",
-        "size": 34298
+        "sha256": "eedd560d68418cfced176a1baa1c12f1e17d1a1505c1c391c8bfdb29a3028318",
+        "size": 35228
       },
       {
         "path": "public/index.html",
-        "sha256": "766db126edc57b66fb718d2e8d85525e6e010bf9048939356bf21d374f634c76",
-        "size": 12416
+        "sha256": "b8594a4a62d8b5b7e13cd14b78827bc0cc2bc045fae5ad174b7f9fe99a827ad1",
+        "size": 12519
       },
       {
         "path": "public/styles.css",
-        "sha256": "765b897c3e9d7d719f716be7f64e7a8e03098cf3cc5d733cc4227d9d47415732",
-        "size": 19865
+        "sha256": "20f1db6875a5f90b6fa97dade704fb0c70576d70df7211dc8151808484894c86",
+        "size": 20049
       },
       {
         "path": "public/sw.js",
-        "sha256": "3a08b33a43cde8744eeda68e1f30a3c90a792acd9f8dbc9d7022e9bf7d1829af",
-        "size": 720
+        "sha256": "a796ccdd0fe6048cf4fc5d9c87c1f440e734650bd5f075fd6c964d5048e0fc1d",
+        "size": 714
       },
       {
         "path": "public/manifest.webmanifest",
@@ -67,5 +67,5 @@
       }
     ]
   },
-  "signature": "CwpGpKo7exjDkj58PnWVKUZmbXsq3Pl9hLqbu0y1uCOq/9FwfxQR7alt+SbaL27n9AHPAkQ+xj18asZReT3nAQ=="
+  "signature": "eebtT9S71c5sGKCB6N1CggiU9Cq7+fkNFcPD3dsX40TCHUiurqMogg26HORa3KXBGkorVRLqLygx3RzxBtX8CQ=="
 }
