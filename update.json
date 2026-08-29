@@ -1,23 +1,23 @@
 {
   "release": {
-    "version": "0.12.1",
-    "publishedAt": "2026-08-29T01:53:22.659Z",
-    "notes": "Roadmap release plus verified Letterboxd list persistence and tactile Movie Information save feedback.",
-    "baseUrl": "https://raw.githubusercontent.com/MatlockFT/screenglo-companion-updates/main/releases/0.12.1/",
+    "version": "0.12.2",
+    "publishedAt": "2026-08-29T06:18:45.348Z",
+    "notes": "Robust rotating Letterboxd recommendations, source-level fallback caching, watched-history filtering, and a details-first What to Watch experience on phone and TV.",
+    "baseUrl": "https://raw.githubusercontent.com/MatlockFT/screenglo-companion-updates/main/releases/0.12.2/",
     "files": [
       {
         "path": "server.js",
-        "sha256": "4e2449e91bab1e3c9a3b1f2548abd39435e13bfbdfb783a07b6960b686369a20",
-        "size": 78147
+        "sha256": "894c60f48db15aff4aee623d261360d32925e8a00dfcbe05273b878ad22fda7b",
+        "size": 81531
       },
       {
         "path": "package.json",
-        "sha256": "c922bcd359648f531ab28473b6534b2066f77c45857155220b48dbce9bffa78c",
+        "sha256": "cc78fea2fcd996e4a9f06cd705ae523ea1e7dfa8a1c2cf247cfb091e8118eeb1",
         "size": 225
       },
       {
         "path": "start.ps1",
-        "sha256": "061f5c874ae2f5d9497c329e09640dc4d8f3e782e5e9cefae27d9d5dcb200b57",
+        "sha256": "932c728af4ed6700ffeca13005d4e4a044fbd2f830e35bb4d37d8f2c38d6bd5f",
         "size": 8808
       },
       {
@@ -27,23 +27,23 @@
       },
       {
         "path": "public/app.js",
-        "sha256": "313d17f03d779e892f47949324ed123f919a8fe58afec181c2624b3640050cd0",
-        "size": 32047
+        "sha256": "b9c42581c15d61089a3d33850a97ea166ec55b8900e141c854313c8274031144",
+        "size": 34298
       },
       {
         "path": "public/index.html",
-        "sha256": "bb968d2094d369e5497c783e13323dc7ff50f328ad0d951f7ba3288859addf0d",
-        "size": 12400
+        "sha256": "766db126edc57b66fb718d2e8d85525e6e010bf9048939356bf21d374f634c76",
+        "size": 12416
       },
       {
         "path": "public/styles.css",
-        "sha256": "597a5afa0e80734f75c610856d8711e0cdbcf455a449893a7dcdc359b6414ec1",
-        "size": 19693
+        "sha256": "765b897c3e9d7d719f716be7f64e7a8e03098cf3cc5d733cc4227d9d47415732",
+        "size": 19865
       },
       {
         "path": "public/sw.js",
-        "sha256": "d53c133eee35782a7515727d293b72a30eff1ffcef59f5fd73ba829e1ea941e9",
-        "size": 721
+        "sha256": "3fb73e9358da1436ab1639c1416d54b46768c7a7e353eada6cb627d659879445",
+        "size": 716
       },
       {
         "path": "public/manifest.webmanifest",
@@ -67,5 +67,5 @@
       }
     ]
   },
-  "signature": "0IkyinQMr+t23dWrBg4BeJxXiWIj2fNeWb5d1LgQt0JXY8yoCK8uoBFNQMrnDBZzHBDkvQznKYtAKwaqzVllCQ=="
+  "signature": "TOjFLxFQnOAcWN1vkEvJte60yz9ehjiRhiD37Q4nswD7pRX0DUK2788h4SN/33TTdL+KxWc9gMYwzJ+RQf8cDw=="
 }
