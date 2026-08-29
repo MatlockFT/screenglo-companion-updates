@@ -1,23 +1,23 @@
 {
   "release": {
-    "version": "0.12.3",
-    "publishedAt": "2026-08-29T06:26:50.740Z",
-    "notes": "Fix Letterboxd picks cold-load timeouts by reducing metadata over-fetching and making TV recommendation requests more tolerant.",
-    "baseUrl": "https://raw.githubusercontent.com/MatlockFT/screenglo-companion-updates/main/releases/0.12.3/",
+    "version": "0.12.4",
+    "publishedAt": "2026-08-29T06:31:08.577Z",
+    "notes": "Fix TV Letterboxd picks by decoding recommendation and poster responses off the Android UI thread; retain reduced cold-load batches.",
+    "baseUrl": "https://raw.githubusercontent.com/MatlockFT/screenglo-companion-updates/main/releases/0.12.4/",
     "files": [
       {
         "path": "server.js",
-        "sha256": "697c775edcb5d9a8f4ae36fbd206f490e3431f545e7565aceda748c20735ca11",
+        "sha256": "a9737d48d881254e9649d5856a5ed5a0af6dc267841a8ae407264117d59eb807",
         "size": 81601
       },
       {
         "path": "package.json",
-        "sha256": "9ac5731456a08638e4132b457f7a34ae4375040ef7acc61e35566ae1e49514e5",
+        "sha256": "39f709381816916009ffc06d54ea9c459110386c8a4797e1b74dea64d604f30f",
         "size": 225
       },
       {
         "path": "start.ps1",
-        "sha256": "bddddf5c80300f6cbc2f5918e3fda4cde12d93efc78d172369d6b1b9fa5dd26b",
+        "sha256": "50ab77a08121999fefce36da42071b9db925a37338750cd4d7059c13b32fea8f",
         "size": 8808
       },
       {
@@ -42,7 +42,7 @@
       },
       {
         "path": "public/sw.js",
-        "sha256": "3de6ed9752de8c4bca3e334457feb52fd77e601d71fbb2d2297ef8ed94bad193",
+        "sha256": "3a08b33a43cde8744eeda68e1f30a3c90a792acd9f8dbc9d7022e9bf7d1829af",
         "size": 720
       },
       {
@@ -67,5 +67,5 @@
       }
     ]
   },
-  "signature": "vkCcnFGIEyvGulpUAr0i1Vz2Y2CpwLap9hUiM3qFbQeZTQSJOLoCYNh2EbIAcEMnoT78Cbm3fIgWU3fGQgZIDQ=="
+  "signature": "CwpGpKo7exjDkj58PnWVKUZmbXsq3Pl9hLqbu0y1uCOq/9FwfxQR7alt+SbaL27n9AHPAkQ+xj18asZReT3nAQ=="
 }
