@@ -1,23 +1,23 @@
 {
   "release": {
-    "version": "0.11.0",
-    "publishedAt": "2026-08-28T23:02:14.913Z",
-    "notes": "Live download updates, smoother player seeking, remembered audio tracks, and playback compatibility preflight.",
-    "baseUrl": "https://raw.githubusercontent.com/MatlockFT/screenglo-companion-updates/main/releases/0.11.0/",
+    "version": "0.12.0",
+    "publishedAt": "2026-08-29T01:09:56.249Z",
+    "notes": "Consolidated roadmap: watched history, Now Playing, live updates, visual scrubbing, player controls, quality profiles, season-aware search, subtitle auto-sync, bookmarks, and lifecycle audio safety.",
+    "baseUrl": "https://raw.githubusercontent.com/MatlockFT/screenglo-companion-updates/main/releases/0.12.0/",
     "files": [
       {
         "path": "server.js",
-        "sha256": "f65fababeebd8c55c15514e213cab76c554325c01ff3c7db33c04a55cf5015e4",
-        "size": 72114
+        "sha256": "7d88af96ed6cd3b3351bca8eed0acd149c38efe006226cf0a9837f9887c2de2e",
+        "size": 77513
       },
       {
         "path": "package.json",
-        "sha256": "9867a4c83f5d0119ce9f659336fb264dd0636a595a2afbfaed70d0108d79b91b",
+        "sha256": "05648556c85bdad7415e3f71ca486ff92b7c8547d81b12495a238a959a8bb409",
         "size": 225
       },
       {
         "path": "start.ps1",
-        "sha256": "043f152a1a829a28d0b65d19b486091d4a627400864b56182e6625e5401da970",
+        "sha256": "9f4b433ccf67222dcc27d939ac0cce7b7501117582603885d9807e64dcdb5d08",
         "size": 8808
       },
       {
@@ -27,23 +27,23 @@
       },
       {
         "path": "public/app.js",
-        "sha256": "2c2ea92448d5337d05661999c0cf7485aec3760c93adf6c72b2d96456c2ab313",
-        "size": 26987
+        "sha256": "46587741411febd6ebb7c575b4dad8b9eac1cad18735c68269c75f3efd33def6",
+        "size": 30461
       },
       {
         "path": "public/index.html",
-        "sha256": "f8b9ba5e3d7c16361508fb1debcdd0a2a1d8b40ec05afdc6efd531d073325e06",
-        "size": 11540
+        "sha256": "bb968d2094d369e5497c783e13323dc7ff50f328ad0d951f7ba3288859addf0d",
+        "size": 12400
       },
       {
         "path": "public/styles.css",
-        "sha256": "b1cdac80a0195a21071a73045b672fbd456663b06408f58391962ae76e06b97e",
-        "size": 17423
+        "sha256": "cbea9a231b28fb7fd0d3faa350224e4a67d44809f2b339fd434c6bafa2f09be2",
+        "size": 19259
       },
       {
         "path": "public/sw.js",
-        "sha256": "2552830b393f82cf5714f1a8f9599de84f3a284be05f5a8c11e29841601b52e5",
-        "size": 714
+        "sha256": "bcd0e35db7c1c95d88d342022637a1d0eab862aca4e77d7f444659780c498900",
+        "size": 710
       },
       {
         "path": "public/manifest.webmanifest",
@@ -67,5 +67,5 @@
       }
     ]
   },
-  "signature": "peAsYNJU1+H9IqOdC+/2Vc/axzm7DqMfREahuYd/FaBsQQRramrH1phiAOohrcHywLK7L/k2B2oufpCw6EbwBA=="
+  "signature": "LquJICtHmDDIVZ0YZm1adbd5MKHLdw3wR7Q9tI95mim+LR2W3u9a0FslD/XuOpfsHqSMcZu9rcpRvBRPgmNvBQ=="
 }
