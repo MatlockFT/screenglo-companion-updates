@@ -1,18 +1,18 @@
 {
   "release": {
-    "version": "0.12.5",
-    "publishedAt": "2026-08-29T06:40:21.721Z",
-    "notes": "Add pageable What to Watch browsing across the full combined Letterboxd pool on TV and phone, with totals and more-movies controls.",
-    "baseUrl": "https://raw.githubusercontent.com/MatlockFT/screenglo-companion-updates/main/releases/0.12.5/",
+    "version": "0.12.6",
+    "publishedAt": "2026-08-30T18:55:11.091Z",
+    "notes": "Audit polish: improve TV recommendation focus restoration, refine large-grid scrolling, and lock the phone layout against accidental zoom.",
+    "baseUrl": "https://raw.githubusercontent.com/MatlockFT/screenglo-companion-updates/main/releases/0.12.6/",
     "files": [
       {
         "path": "server.js",
-        "sha256": "becf5b75c2e4a2595fb89496ce0bc5826d307371fcdd362979271ebc5b98e036",
+        "sha256": "d1ac3615bbaed5ee8efbfec8c88cb0db0d6f7608bddc8046345f20124af005a2",
         "size": 81902
       },
       {
         "path": "package.json",
-        "sha256": "0b94a5f399db738afcb149d3b1a4736a879c61d09d409a40d05f30d0db96bfbc",
+        "sha256": "6d51317fb9b7599efbc6b230c43079b7bef2986cc06331c1f6648375481fc1f1",
         "size": 225
       },
       {
@@ -32,8 +32,8 @@
       },
       {
         "path": "public/index.html",
-        "sha256": "b8594a4a62d8b5b7e13cd14b78827bc0cc2bc045fae5ad174b7f9fe99a827ad1",
-        "size": 12519
+        "sha256": "52860840f9a8c3466ecd3dc45d7894ee75f07f16a0069dd1a410c9dd945910cf",
+        "size": 12552
       },
       {
         "path": "public/styles.css",
@@ -42,8 +42,8 @@
       },
       {
         "path": "public/sw.js",
-        "sha256": "a796ccdd0fe6048cf4fc5d9c87c1f440e734650bd5f075fd6c964d5048e0fc1d",
-        "size": 714
+        "sha256": "b60a363c011bceb224c02e92e060344818e46af8136f1b5b0e4570c8d56b6edd",
+        "size": 715
       },
       {
         "path": "public/manifest.webmanifest",
@@ -67,5 +67,5 @@
       }
     ]
   },
-  "signature": "eebtT9S71c5sGKCB6N1CggiU9Cq7+fkNFcPD3dsX40TCHUiurqMogg26HORa3KXBGkorVRLqLygx3RzxBtX8CQ=="
+  "signature": "sIOlfKPGx0AN0IO88uKhyHArPhbr53193IZAlqFg0ipGHArIuH80R8098WgUMBfFMVAr+2jWUdzBhHDCzOj2Cg=="
 }

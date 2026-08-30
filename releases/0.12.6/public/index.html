@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+  <meta name="theme-color" content="#16090c">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <title>SCREENGLO</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon-192.png">
+  <link rel="apple-touch-icon" href="icon-192.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <svg class="icon-sprite" aria-hidden="true">
+    <symbol id="i-settings" viewBox="0 0 24 24"><path d="M19.4 13a7.5 7.5 0 0 0 .1-1 7.5 7.5 0 0 0-.1-1l2.1-1.7-2-3.5-2.6 1a8 8 0 0 0-1.7-1L14.8 3h-4l-.4 2.8a8 8 0 0 0-1.7 1l-2.6-1-2 3.5L6.2 11a7.5 7.5 0 0 0-.1 1 7.5 7.5 0 0 0 .1 1l-2.1 1.7 2 3.5 2.6-1a8 8 0 0 0 1.7 1l.4 2.8h4l.4-2.8a8 8 0 0 0 1.7-1l2.6 1 2-3.5L19.4 13ZM12.8 15.4A3.5 3.5 0 1 1 11.2 8.6a3.5 3.5 0 0 1 1.6 6.8Z"/></symbol>
+    <symbol id="i-up" viewBox="0 0 24 24"><path d="m6.7 14.7 5.3-5.3 5.3 5.3 1.4-1.4L12 6.6l-6.7 6.7 1.4 1.4Z"/></symbol>
+    <symbol id="i-down" viewBox="0 0 24 24"><path d="m6.7 9.3 5.3 5.3 5.3-5.3 1.4 1.4L12 17.4l-6.7-6.7 1.4-1.4Z"/></symbol>
+    <symbol id="i-left" viewBox="0 0 24 24"><path d="m14.7 6.7-5.3 5.3 5.3 5.3-1.4 1.4L6.6 12l6.7-6.7 1.4 1.4Z"/></symbol>
+    <symbol id="i-right" viewBox="0 0 24 24"><path d="m9.3 6.7 5.3 5.3-5.3 5.3 1.4 1.4 6.7-6.7-6.7-6.7-1.4 1.4Z"/></symbol>
+    <symbol id="i-back" viewBox="0 0 24 24"><path d="M20 11H7.8l4.6-4.6L11 5l-7 7 7 7 1.4-1.4L7.8 13H20v-2Z"/></symbol>
+    <symbol id="i-power" viewBox="0 0 24 24"><path d="M13 3h-2v10h2V3Zm4.8 2.2-1.4 1.4A7 7 0 1 1 7.6 6.6L6.2 5.2A9 9 0 1 0 17.8 5.2Z"/></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><path d="M10.5 4a6.5 6.5 0 1 0 4 11.6L19 20l1-1-4.4-4.5A6.5 6.5 0 0 0 10.5 4Zm0 2a4.5 4.5 0 1 1 0 9 4.5 4.5 0 0 1 0-9Z"/></symbol>
+    <symbol id="i-refresh" viewBox="0 0 24 24"><path d="M17.7 6.3A8 8 0 1 0 20 12h-2a6 6 0 1 1-1.7-4.3L13 11h8V3l-3.3 3.3Z"/></symbol>
+    <symbol id="i-spark" viewBox="0 0 24 24"><path d="m12 2 1.5 5.5L19 9l-5.5 1.5L12 16l-1.5-5.5L5 9l5.5-1.5L12 2Zm7 13 .8 2.2L22 18l-2.2.8L19 21l-.8-2.2L16 18l2.2-.8L19 15Z"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="m6.4 5 5.6 5.6L17.6 5 19 6.4 13.4 12l5.6 5.6-1.4 1.4-5.6-5.6L6.4 19 5 17.6l5.6-5.6L5 6.4 6.4 5Z"/></symbol>
+    <symbol id="i-control" viewBox="0 0 24 24"><path d="M12 4a8 8 0 1 0 0 16 8 8 0 0 0 0-16Zm0 3 2 3h-4l2-3Zm-5 5 3-2v4l-3-2Zm5 5-2-3h4l-2 3Zm5-5-3 2v-4l3 2Z"/></symbol>
+    <symbol id="i-download" viewBox="0 0 24 24"><path d="M11 4h2v9l3.5-3.5 1.4 1.4-5.9 5.9-5.9-5.9 1.4-1.4L11 13V4Zm-5 15h12v2H6v-2Z"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="m9.2 16.2-4.1-4.1-1.4 1.4L9.2 19 21 7.2l-1.4-1.4-10.4 10.4Z"/></symbol>
+    <symbol id="i-bookmark" viewBox="0 0 24 24"><path d="M6 3h12v18l-6-3-6 3V3Zm2 2v12.8l4-2 4 2V5H8Z"/></symbol>
+    <symbol id="i-circle" viewBox="0 0 24 24"><path d="M12 4a8 8 0 1 0 0 16 8 8 0 0 0 0-16Zm0 2a6 6 0 1 1 0 12 6 6 0 0 1 0-12Z"/></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24"><path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2-5.6-2.9-5.6 2.9 1.1-6.2L3 9.6l6.2-.9L12 3Z"/></symbol>
+    <symbol id="i-history" viewBox="0 0 24 24"><path d="M12 4a8 8 0 1 1-7.4 5H2l3.5-3.5L9 9H6.7A6 6 0 1 0 12 6v4l3.5 2.1-1 1.7-4.5-2.7V4h2Z"/></symbol>
+  </svg>
+  <main class="shell">
+    <header class="brand-row">
+      <img src="logo.png" alt="SCREENGLO" class="logo">
+      <div class="header-actions">
+        <button class="connection" id="connection" type="button" aria-label="Connection status">
+          <span class="state-dot"></span><span><strong id="state-title">CONNECTING</strong><small id="state-copy">Finding your PC</small></span>
+        </button>
+        <button class="settings-shortcut" data-view="settings" type="button" aria-label="Settings"><svg class="icon"><use href="#i-settings"/></svg></button>
+      </div>
+    </header>
+
+    <section class="view active" id="control">
+      <div class="view-heading"><h1>Phone Control</h1></div>
+      <section class="context-card" id="tv-context">
+        <div><small id="tv-context-label">TV STATUS</small><strong id="tv-context-title">Phone-only mode</strong><p id="tv-context-copy">Nothing on the TV will be interrupted.</p></div>
+        <form id="tv-input-form" class="tv-input hidden">
+          <input id="tv-input" maxlength="512" autocomplete="off" placeholder="Type or paste here">
+          <button type="submit">SEND</button>
+        </form>
+      </section>
+      <section class="now-playing hidden" id="now-playing"><img id="now-playing-poster" alt=""><div><small>NOW PLAYING</small><strong id="now-playing-title"></strong><span id="now-playing-time"></span><div class="mini-track"><i id="now-playing-progress"></i></div></div></section>
+      <section class="remote-card" aria-label="SCREENGLO remote">
+        <button class="direction up" data-command="up" aria-label="Up"><svg class="icon"><use href="#i-up"/></svg></button>
+        <button class="direction left" data-command="left" aria-label="Left"><svg class="icon"><use href="#i-left"/></svg></button>
+        <button class="select" data-command="select" aria-label="Select">OK</button>
+        <button class="direction right" data-command="right" aria-label="Right"><svg class="icon"><use href="#i-right"/></svg></button>
+        <button class="direction down" data-command="down" aria-label="Down"><svg class="icon"><use href="#i-down"/></svg></button>
+      </section>
+      <div class="remote-actions">
+        <button data-command="back" aria-label="Back"><svg class="icon"><use href="#i-back"/></svg></button>
+        <button class="exit" data-command="exit" aria-label="Exit"><svg class="icon"><use href="#i-power"/></svg></button>
+      </div>
+    </section>
+
+    <section class="view" id="discover">
+      <div class="view-heading"><h1>What to Watch</h1></div>
+      <form id="search-form" class="search-form">
+        <label><span class="sr-only">Search movies and TV</span><input id="search-input" minlength="2" maxlength="120" autocomplete="off" enterkeyhint="search" placeholder="Search movies + TV"></label>
+        <button type="submit" aria-label="Search"><svg class="icon"><use href="#i-search"/></svg></button>
+      </form>
+      <div class="sorts" aria-label="Sort results"><button class="sort active" data-sort="seeders">SEEDERS</button><button class="sort" data-sort="newest">NEWEST</button><button class="sort" data-sort="size">SIZE</button><button class="quality active" data-quality="any">ANY</button><button class="quality" data-quality="1080">1080P</button><button class="quality" data-quality="4k">4K</button></div>
+      <p id="search-status" class="status" aria-live="polite"></p>
+      <section id="results" class="results"></section>
+      <section id="detail" class="detail hidden"></section>
+
+      <section id="recommendations" class="recommendations">
+        <div class="section-title"><div><h2>From your lists</h2></div><div class="mini-actions"><button id="letterboxd-random" type="button" aria-label="Surprise me"><svg class="icon"><use href="#i-spark"/></svg></button><button id="letterboxd-sync" type="button" aria-label="Sync picks"><svg class="icon"><use href="#i-refresh"/></svg></button></div></div>
+        <div class="letterboxd-filters" aria-label="Watchlist filters">
+          <button class="letterboxd-filter active" data-letterboxd-filter="all">FOR US</button>
+          <button class="letterboxd-filter" data-letterboxd-filter="both">BOTH SAVED</button>
+          <button class="letterboxd-filter" data-letterboxd-filter="tyler">TYLER</button>
+          <button class="letterboxd-filter" data-letterboxd-filter="gloria">GLORIA</button>
+          <button class="letterboxd-filter" data-letterboxd-filter="curated">LISTS</button>
+        </div>
+        <p id="letterboxd-status" class="status"></p>
+        <section id="letterboxd-list" class="letterboxd-list"></section>
+        <button id="letterboxd-more" class="letterboxd-more hidden" type="button">MORE MOVIES</button>
+        <div class="section-title history-title"><div><h2>Watched here</h2></div><svg class="icon"><use href="#i-history"/></svg></div>
+        <p id="history-status" class="status"></p>
+        <section id="history-list" class="history-list"></section>
+      </section>
+    </section>
+
+    <section class="view" id="downloads">
+      <div class="section-title"><div><h1>Downloads</h1></div><button id="refresh" aria-label="Refresh"><svg class="icon"><use href="#i-refresh"/></svg></button></div>
+      <p id="download-status" class="status" aria-live="polite"></p>
+      <section id="download-list" class="download-list"></section>
+    </section>
+
+    <section class="view" id="settings">
+      <div class="section-title"><div><h1>Settings</h1></div><button class="close-settings" data-view="control" aria-label="Close settings"><svg class="icon"><use href="#i-close"/></svg></button></div>
+      <section class="product-status" aria-label="SCREENGLO product versions">
+        <div class="product-row"><span class="state-dot"></span><div><strong>WINDOWS COMPANION</strong><small id="companion-version">Checking version…</small></div></div>
+        <div class="product-row"><span class="state-dot"></span><div><strong>PHONE CONTROL</strong><small id="phone-version">Updates with Windows Companion</small></div></div>
+        <div class="product-row" id="tv-product"><span class="state-dot"></span><div><strong>TV APP</strong><small id="tv-version">Waiting for TV…</small></div></div>
+      </section>
+      <details class="settings-group">
+        <summary>Download PC <span>qBittorrent</span></summary>
+        <form id="settings-form" class="settings-form">
+          <label>HOST<input id="qbit-host" placeholder="127.0.0.1"></label>
+          <label>PORT<input id="qbit-port" inputmode="numeric" placeholder="8080"></label>
+          <label class="check"><input id="qbit-https" type="checkbox"> Use HTTPS</label>
+          <label>API KEY<input id="qbit-key" type="password" autocomplete="off" placeholder="Saved securely — enter only to replace"></label>
+          <label>DOWNLOAD CATEGORY<input id="category" placeholder="movies"></label>
+          <button type="submit">SAVE + TEST</button>
+        </form>
+        <p id="settings-status" class="status"></p>
+      </details>
+      <details class="settings-group">
+        <summary>Movie information <span>TMDB + Letterboxd</span></summary>
+        <div class="settings-form metadata-settings">
+          <label>TMDB READ TOKEN<input id="tmdb-token" type="password" autocomplete="off" placeholder="Saved securely — enter only to replace"></label>
+          <label>OPENSUBTITLES API KEY<input id="opensubtitles-key" type="password" autocomplete="off" placeholder="Optional — enables subtitle search in the TV player"></label>
+          <label>TYLER<input id="letterboxd-tyler" autocomplete="off" value="xMATLOCKx"></label>
+          <label>GLORIA<input id="letterboxd-gloria" autocomplete="off" value="gloriaileana"></label>
+          <label>CURATED LIST URLS<textarea id="letterboxd-lists" rows="3" placeholder="One public Letterboxd list URL per line"></textarea></label>
+          <p id="letterboxd-settings-status" class="explain">No Letterboxd password is used or stored.</p>
+          <button id="save-metadata" class="settings-save" type="button">SAVE MOVIE INFO</button>
+        </div>
+      </details>
+      <section class="update-card">
+        <small>SIGNED UPDATES</small><h2>Windows + Phone update</h2>
+        <p id="update-copy">Phone Control ships inside Windows Companion. The TV App is updated separately.</p>
+        <button id="update-companion" type="button">CHECK FOR UPDATE</button>
+      </section>
+      <button id="install" class="install hidden">ADD SCREENGLO TO THIS PHONE</button>
+    </section>
+  </main>
+
+  <nav class="bottom-nav" aria-label="SCREENGLO sections">
+    <button class="tab active" data-view="control" aria-label="Control"><span><svg class="icon"><use href="#i-control"/></svg></span><b>CONTROL</b></button>
+    <button class="tab" data-view="discover" aria-label="What to Watch"><span><svg class="icon"><use href="#i-spark"/></svg></span><b>WATCH</b></button>
+    <button class="tab" data-view="downloads" aria-label="Downloads"><span><svg class="icon"><use href="#i-download"/></svg></span><b>DOWNLOADS</b></button>
+  </nav>
+  <script src="app.js" defer></script>
+</body>
+</html>
