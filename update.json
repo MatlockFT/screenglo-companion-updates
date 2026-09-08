@@ -1,18 +1,18 @@
 {
   "release": {
-    "version": "0.12.6",
-    "publishedAt": "2026-08-30T18:55:11.091Z",
-    "notes": "Audit polish: improve TV recommendation focus restoration, refine large-grid scrolling, and lock the phone layout against accidental zoom.",
-    "baseUrl": "https://raw.githubusercontent.com/MatlockFT/screenglo-companion-updates/main/releases/0.12.6/",
+    "version": "0.12.7",
+    "publishedAt": "2026-09-08T02:43:07.784Z",
+    "notes": "Compact TV playback companion update: matching movie artwork and in-page trailers for discovery and release details, with alternate trailers and safer title matching.",
+    "baseUrl": "https://raw.githubusercontent.com/MatlockFT/screenglo-companion-updates/main/releases/0.12.7/",
     "files": [
       {
         "path": "server.js",
-        "sha256": "d1ac3615bbaed5ee8efbfec8c88cb0db0d6f7608bddc8046345f20124af005a2",
-        "size": 81902
+        "sha256": "c499a448759b6ab480f8b2af4e6662baddbace062598466cb044d00f6f2175e1",
+        "size": 84476
       },
       {
         "path": "package.json",
-        "sha256": "6d51317fb9b7599efbc6b230c43079b7bef2986cc06331c1f6648375481fc1f1",
+        "sha256": "2540e1f2e614ea443676667e60bde80976b4c2e3dcc07f29fedcb4e2ab8f3df1",
         "size": 225
       },
       {
@@ -27,8 +27,8 @@
       },
       {
         "path": "public/app.js",
-        "sha256": "eedd560d68418cfced176a1baa1c12f1e17d1a1505c1c391c8bfdb29a3028318",
-        "size": 35228
+        "sha256": "5e328b658837dc7c184ea07755e3b1e1102be990f461a31e6ea8cfef84e7e2b0",
+        "size": 39731
       },
       {
         "path": "public/index.html",
@@ -37,12 +37,12 @@
       },
       {
         "path": "public/styles.css",
-        "sha256": "20f1db6875a5f90b6fa97dade704fb0c70576d70df7211dc8151808484894c86",
-        "size": 20049
+        "sha256": "29690950fce524c7119bce48cea41a733d1a15af84a4fe813a14c48a477e05fd",
+        "size": 21879
       },
       {
         "path": "public/sw.js",
-        "sha256": "b60a363c011bceb224c02e92e060344818e46af8136f1b5b0e4570c8d56b6edd",
+        "sha256": "60dfb768c8b883b4671fd43d663197259fdda9e5fd9f5ec676f91f2f92261815",
         "size": 715
       },
       {
@@ -67,5 +67,5 @@
       }
     ]
   },
-  "signature": "sIOlfKPGx0AN0IO88uKhyHArPhbr53193IZAlqFg0ipGHArIuH80R8098WgUMBfFMVAr+2jWUdzBhHDCzOj2Cg=="
+  "signature": "wI/Cjp1N7zpXoW3lnDb32ILXL1/mjI/YMbyOfNPNeJE6ADfbh7Br4eJTT6DruZa/i/6l8h/pJzQ5aC9MnoxcDQ=="
 }
