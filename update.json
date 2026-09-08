@@ -1,18 +1,18 @@
 {
   "release": {
-    "version": "0.12.7",
-    "publishedAt": "2026-09-08T02:43:07.784Z",
-    "notes": "Compact TV playback companion update: matching movie artwork and in-page trailers for discovery and release details, with alternate trailers and safer title matching.",
-    "baseUrl": "https://raw.githubusercontent.com/MatlockFT/screenglo-companion-updates/main/releases/0.12.7/",
+    "version": "0.12.8",
+    "publishedAt": "2026-09-08T03:06:50.942Z",
+    "notes": "Automatic English subtitle retrieval, exact file matching, safer OpenSubtitles downloads, and clear fallback choices.",
+    "baseUrl": "https://raw.githubusercontent.com/MatlockFT/screenglo-companion-updates/main/releases/0.12.8/",
     "files": [
       {
         "path": "server.js",
-        "sha256": "c499a448759b6ab480f8b2af4e6662baddbace062598466cb044d00f6f2175e1",
-        "size": 84476
+        "sha256": "983d7cf0f37656719a0ac8abbd2c3a10d16f46252f1abd3e834aa55dde0bf14a",
+        "size": 92179
       },
       {
         "path": "package.json",
-        "sha256": "2540e1f2e614ea443676667e60bde80976b4c2e3dcc07f29fedcb4e2ab8f3df1",
+        "sha256": "293c70b4b502bb5536d619cad399cde38b5492352b5745d1977a8614e44ee330",
         "size": 225
       },
       {
@@ -42,8 +42,8 @@
       },
       {
         "path": "public/sw.js",
-        "sha256": "60dfb768c8b883b4671fd43d663197259fdda9e5fd9f5ec676f91f2f92261815",
-        "size": 715
+        "sha256": "b83447ccf56256ce90d3176be66b15485df885e3afa9dc19147859606adeecdc",
+        "size": 720
       },
       {
         "path": "public/manifest.webmanifest",
@@ -67,5 +67,5 @@
       }
     ]
   },
-  "signature": "wI/Cjp1N7zpXoW3lnDb32ILXL1/mjI/YMbyOfNPNeJE6ADfbh7Br4eJTT6DruZa/i/6l8h/pJzQ5aC9MnoxcDQ=="
+  "signature": "eSRzFtanlPlihH1LuKXWk+0PYFyIPjd3HKPuiXR+iOkU646+1wHj9qpg/WvqBP6d3BwUZNHlnO5ilZtJeetKDw=="
 }
