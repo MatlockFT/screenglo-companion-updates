@@ -1,18 +1,18 @@
 {
   "release": {
-    "version": "0.12.8",
-    "publishedAt": "2026-09-08T03:06:50.942Z",
-    "notes": "Automatic English subtitle retrieval, exact file matching, safer OpenSubtitles downloads, and clear fallback choices.",
-    "baseUrl": "https://raw.githubusercontent.com/MatlockFT/screenglo-companion-updates/main/releases/0.12.8/",
+    "version": "0.12.9",
+    "publishedAt": "2026-09-14T17:42:30.937Z",
+    "notes": "Library with artwork and year-aware searches. Distinct shared and individual watchlists. Automatically populated public Letterboxd lists, opened individually on phone and TV.",
+    "baseUrl": "https://raw.githubusercontent.com/MatlockFT/screenglo-companion-updates/main/releases/0.12.9/",
     "files": [
       {
         "path": "server.js",
-        "sha256": "983d7cf0f37656719a0ac8abbd2c3a10d16f46252f1abd3e834aa55dde0bf14a",
-        "size": 92179
+        "sha256": "d14f665bc08bcce13d7a71bcf9cd053ec4d8e0200ae36ba8d5e2de9f647dd627",
+        "size": 95239
       },
       {
         "path": "package.json",
-        "sha256": "293c70b4b502bb5536d619cad399cde38b5492352b5745d1977a8614e44ee330",
+        "sha256": "3f71b5462d3c71a7f0da60b8b78697873bffb7adb3c2ef2a22ef35f64d054a82",
         "size": 225
       },
       {
@@ -27,23 +27,23 @@
       },
       {
         "path": "public/app.js",
-        "sha256": "5e328b658837dc7c184ea07755e3b1e1102be990f461a31e6ea8cfef84e7e2b0",
-        "size": 39731
+        "sha256": "cedcda1c15b9d44e9d6cd8de16defa56f208439e3f4f88fee9625f54be9545c2",
+        "size": 42490
       },
       {
         "path": "public/index.html",
-        "sha256": "52860840f9a8c3466ecd3dc45d7894ee75f07f16a0069dd1a410c9dd945910cf",
-        "size": 12552
+        "sha256": "94e9cb1bafead460b2d8b9a5c1d8a2bb93cb2cb0d2379ff2b5ccbac8c91fee76",
+        "size": 12862
       },
       {
         "path": "public/styles.css",
-        "sha256": "29690950fce524c7119bce48cea41a733d1a15af84a4fe813a14c48a477e05fd",
-        "size": 21879
+        "sha256": "0e31ba5871c9261465bca945fbd21084f3badacf26edda235a8fef0657de9975",
+        "size": 22387
       },
       {
         "path": "public/sw.js",
-        "sha256": "b83447ccf56256ce90d3176be66b15485df885e3afa9dc19147859606adeecdc",
-        "size": 720
+        "sha256": "4d8417061f69a172f05bc07dddb9821c0fe23fc4ffd89ad0f7079c2de48c9cd4",
+        "size": 716
       },
       {
         "path": "public/manifest.webmanifest",
@@ -67,5 +67,5 @@
       }
     ]
   },
-  "signature": "eSRzFtanlPlihH1LuKXWk+0PYFyIPjd3HKPuiXR+iOkU646+1wHj9qpg/WvqBP6d3BwUZNHlnO5ilZtJeetKDw=="
+  "signature": "lC7eGP7yyqHuFsiwPmqGLrd5uQScPdbXgGQ3oc3pw3vtWlKJLLVJu4dzeuJWZ4SrzxYObOW+WV7pBGoYnNZ5Cw=="
 }
