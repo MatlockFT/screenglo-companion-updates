@@ -1,19 +1,19 @@
 {
   "release": {
-    "version": "0.12.9",
-    "publishedAt": "2026-09-14T17:42:30.937Z",
-    "notes": "Library with artwork and year-aware searches. Distinct shared and individual watchlists. Automatically populated public Letterboxd lists, opened individually on phone and TV.",
-    "baseUrl": "https://raw.githubusercontent.com/MatlockFT/screenglo-companion-updates/main/releases/0.12.9/",
+    "version": "0.12.10",
+    "publishedAt": "2026-09-14T23:17:47.683Z",
+    "notes": "QA: preserve Library interaction state, skip unchanged redraws, prevent duplicate actions, and back off blocked public directory refreshes.",
+    "baseUrl": "https://raw.githubusercontent.com/MatlockFT/screenglo-companion-updates/main/releases/0.12.10/",
     "files": [
       {
         "path": "server.js",
-        "sha256": "d14f665bc08bcce13d7a71bcf9cd053ec4d8e0200ae36ba8d5e2de9f647dd627",
-        "size": 95239
+        "sha256": "7a629bc05296ac46ac56ececee8f06d2bad59e49ed3d2a14b26e96994378e88a",
+        "size": 95378
       },
       {
         "path": "package.json",
-        "sha256": "3f71b5462d3c71a7f0da60b8b78697873bffb7adb3c2ef2a22ef35f64d054a82",
-        "size": 225
+        "sha256": "73d11d14ac43b38aa462581ed7fe9a1341317cca3f90b2dd4e3814e63a43e044",
+        "size": 226
       },
       {
         "path": "start.ps1",
@@ -27,8 +27,8 @@
       },
       {
         "path": "public/app.js",
-        "sha256": "cedcda1c15b9d44e9d6cd8de16defa56f208439e3f4f88fee9625f54be9545c2",
-        "size": 42490
+        "sha256": "7f4371a9f7d6c7c0fe735a6557fef3e5c97ad7f8836cd42d7df2741340e0e42f",
+        "size": 43657
       },
       {
         "path": "public/index.html",
@@ -42,8 +42,8 @@
       },
       {
         "path": "public/sw.js",
-        "sha256": "4d8417061f69a172f05bc07dddb9821c0fe23fc4ffd89ad0f7079c2de48c9cd4",
-        "size": 716
+        "sha256": "b7c7c95cca35cfc60208a3dcb9d7b7c519b94373162063a02fa2c0b997c3beb3",
+        "size": 706
       },
       {
         "path": "public/manifest.webmanifest",
@@ -67,5 +67,5 @@
       }
     ]
   },
-  "signature": "lC7eGP7yyqHuFsiwPmqGLrd5uQScPdbXgGQ3oc3pw3vtWlKJLLVJu4dzeuJWZ4SrzxYObOW+WV7pBGoYnNZ5Cw=="
+  "signature": "3NPDpa9NYoWPTnL56uy8Xw/7Zx3oyh46h3xB3YACEU1oO7cYC4xNPQBOJaLzxHyImL7IhAr8ZINpV97Vwv9oCw=="
 }
