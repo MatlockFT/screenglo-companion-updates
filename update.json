@@ -1,18 +1,18 @@
 {
   "release": {
-    "version": "0.12.11",
-    "publishedAt": "2026-09-15T02:29:00.132Z",
-    "notes": "Live TV trial: FOX 7 Austin local news and Red Bull TV action sports. Native HLS playback on iPhone.",
-    "baseUrl": "https://raw.githubusercontent.com/MatlockFT/screenglo-companion-updates/main/releases/0.12.11/",
+    "version": "0.12.12",
+    "publishedAt": "2026-09-15T03:39:40.235Z",
+    "notes": "Five live channels: FOX 7 Austin, beIN SPORTS XTRA, CBS Sports Golazo, CBS Sports HQ and Shout! TV. Austin camera grid with four refreshing traffic views and fullscreen selection.",
+    "baseUrl": "https://raw.githubusercontent.com/MatlockFT/screenglo-companion-updates/main/releases/0.12.12/",
     "files": [
       {
         "path": "server.js",
-        "sha256": "e09fe5c0344b6ed58f9767ee6a37df9c8a40ec3955b9cab48830c487a189f6e7",
+        "sha256": "55956186ae8dc3bf86bef2e9b9584a1cde88960a68ca1378feab0b1329df6fb1",
         "size": 95378
       },
       {
         "path": "package.json",
-        "sha256": "74136b212dc89e6a74aa1e9771ff5306ace81f03a5fb2dad89890884ed30b4bf",
+        "sha256": "9b787c800493990de1eb69b0b545c15f2e4ea20d00364a2ad1bb53267908bd0e",
         "size": 226
       },
       {
@@ -27,23 +27,23 @@
       },
       {
         "path": "public/app.js",
-        "sha256": "83a8a366350b6dbfb15be1bd622a0126cf72e392bc17b034fa0e3815cfc6e455",
-        "size": 45216
+        "sha256": "b9e903637f63b10fecf6b4c66e72abce3c6100e431b86afca58f34949354e285",
+        "size": 48572
       },
       {
         "path": "public/index.html",
-        "sha256": "0107d24a68f6e19393d6c766e58f53d856f887bf840999e29b53c6a2b1a6696e",
-        "size": 13682
+        "sha256": "7f20269d564d89f7e6b2da86533e1925b4135bfb14e76da5b21ad822ad7ab56a",
+        "size": 14471
       },
       {
         "path": "public/styles.css",
-        "sha256": "6b1b51d0f4d8f03ab8c68e127a0be4e2aabcf523c53451c248a9e8362a813ace",
-        "size": 22705
+        "sha256": "2e27c60fbcdfb9348bbd4a7dec54c317b1e6014ddc23fcae6f13c60db93050a4",
+        "size": 24399
       },
       {
         "path": "public/sw.js",
-        "sha256": "53c4f4891dab73062e0ac45ac065caf04bcc6faf07eaaf9f47ed49b01115db82",
-        "size": 711
+        "sha256": "b35ee14d142b9c5e77f5b03de43bb9f5ddd0afd4a877594ac213ef46384969ed",
+        "size": 718
       },
       {
         "path": "public/manifest.webmanifest",
@@ -67,5 +67,5 @@
       }
     ]
   },
-  "signature": "JLNcaljHaqs1zziAOiECHAWBUlK5aIvhYBYxHvRZ2MRgvZNwsBPpPzYKLDu/LnD+6T3yfd/8lar+o66tQgOiBA=="
+  "signature": "0RUXS+RU4svBCsi0pV76QlFRIGyFbCN+hljpcpsCJUL/rzNquGOHdMVaHWamrvO5JHEJc5dvaFCWvPYgIPEDAg=="
 }
