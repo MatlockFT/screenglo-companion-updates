@@ -1,18 +1,18 @@
 {
   "release": {
-    "version": "0.12.12",
-    "publishedAt": "2026-09-15T03:39:40.235Z",
-    "notes": "Five live channels: FOX 7 Austin, beIN SPORTS XTRA, CBS Sports Golazo, CBS Sports HQ and Shout! TV. Austin camera grid with four refreshing traffic views and fullscreen selection.",
-    "baseUrl": "https://raw.githubusercontent.com/MatlockFT/screenglo-companion-updates/main/releases/0.12.12/",
+    "version": "0.12.13",
+    "publishedAt": "2026-09-15T05:07:36.940Z",
+    "notes": "Japan Live TV: dynamically loads the iptv-org Japan playlist with channel categories and hourly refresh. TV supports HLS and DASH streams.",
+    "baseUrl": "https://raw.githubusercontent.com/MatlockFT/screenglo-companion-updates/main/releases/0.12.13/",
     "files": [
       {
         "path": "server.js",
-        "sha256": "55956186ae8dc3bf86bef2e9b9584a1cde88960a68ca1378feab0b1329df6fb1",
+        "sha256": "6533f3b6610c8e7253ad45847421ff39d21d832edc4d253f76771cadc2781d4d",
         "size": 95378
       },
       {
         "path": "package.json",
-        "sha256": "9b787c800493990de1eb69b0b545c15f2e4ea20d00364a2ad1bb53267908bd0e",
+        "sha256": "a5151965fe1e2eed05595741a81621151f409fb2b96721d6c1d08592d9313c8b",
         "size": 226
       },
       {
@@ -27,13 +27,13 @@
       },
       {
         "path": "public/app.js",
-        "sha256": "b9e903637f63b10fecf6b4c66e72abce3c6100e431b86afca58f34949354e285",
-        "size": 48572
+        "sha256": "38207d2ba89ccef5f6844d4d9cf1d6e3f339767aecf749223e281c679906ce33",
+        "size": 51058
       },
       {
         "path": "public/index.html",
-        "sha256": "7f20269d564d89f7e6b2da86533e1925b4135bfb14e76da5b21ad822ad7ab56a",
-        "size": 14471
+        "sha256": "937f661d2e4efdfaf097bf1b690b933e16369694b0b9213482f889a7c0c407f4",
+        "size": 14716
       },
       {
         "path": "public/styles.css",
@@ -42,8 +42,8 @@
       },
       {
         "path": "public/sw.js",
-        "sha256": "b35ee14d142b9c5e77f5b03de43bb9f5ddd0afd4a877594ac213ef46384969ed",
-        "size": 718
+        "sha256": "9430f6ac7054fa6f63349308a6667ed6fb431b0bea0d1bcb0a52c1167ef6bb50",
+        "size": 709
       },
       {
         "path": "public/manifest.webmanifest",
@@ -67,5 +67,5 @@
       }
     ]
   },
-  "signature": "0RUXS+RU4svBCsi0pV76QlFRIGyFbCN+hljpcpsCJUL/rzNquGOHdMVaHWamrvO5JHEJc5dvaFCWvPYgIPEDAg=="
+  "signature": "d/umIBBvTtZKZY+5iI2R4tizjKSfaQNlda4OIZoH0YJObglNSclQ8i62sJ5lc+HvO029knM8bdcsAme4uRagAg=="
 }
