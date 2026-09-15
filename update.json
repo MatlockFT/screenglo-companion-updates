@@ -1,18 +1,18 @@
 {
   "release": {
-    "version": "0.12.10",
-    "publishedAt": "2026-09-14T23:17:47.683Z",
-    "notes": "QA: preserve Library interaction state, skip unchanged redraws, prevent duplicate actions, and back off blocked public directory refreshes.",
-    "baseUrl": "https://raw.githubusercontent.com/MatlockFT/screenglo-companion-updates/main/releases/0.12.10/",
+    "version": "0.12.11",
+    "publishedAt": "2026-09-15T02:29:00.132Z",
+    "notes": "Live TV trial: FOX 7 Austin local news and Red Bull TV action sports. Native HLS playback on iPhone.",
+    "baseUrl": "https://raw.githubusercontent.com/MatlockFT/screenglo-companion-updates/main/releases/0.12.11/",
     "files": [
       {
         "path": "server.js",
-        "sha256": "7a629bc05296ac46ac56ececee8f06d2bad59e49ed3d2a14b26e96994378e88a",
+        "sha256": "e09fe5c0344b6ed58f9767ee6a37df9c8a40ec3955b9cab48830c487a189f6e7",
         "size": 95378
       },
       {
         "path": "package.json",
-        "sha256": "73d11d14ac43b38aa462581ed7fe9a1341317cca3f90b2dd4e3814e63a43e044",
+        "sha256": "74136b212dc89e6a74aa1e9771ff5306ace81f03a5fb2dad89890884ed30b4bf",
         "size": 226
       },
       {
@@ -27,23 +27,23 @@
       },
       {
         "path": "public/app.js",
-        "sha256": "7f4371a9f7d6c7c0fe735a6557fef3e5c97ad7f8836cd42d7df2741340e0e42f",
-        "size": 43657
+        "sha256": "83a8a366350b6dbfb15be1bd622a0126cf72e392bc17b034fa0e3815cfc6e455",
+        "size": 45216
       },
       {
         "path": "public/index.html",
-        "sha256": "94e9cb1bafead460b2d8b9a5c1d8a2bb93cb2cb0d2379ff2b5ccbac8c91fee76",
-        "size": 12862
+        "sha256": "0107d24a68f6e19393d6c766e58f53d856f887bf840999e29b53c6a2b1a6696e",
+        "size": 13682
       },
       {
         "path": "public/styles.css",
-        "sha256": "0e31ba5871c9261465bca945fbd21084f3badacf26edda235a8fef0657de9975",
-        "size": 22387
+        "sha256": "6b1b51d0f4d8f03ab8c68e127a0be4e2aabcf523c53451c248a9e8362a813ace",
+        "size": 22705
       },
       {
         "path": "public/sw.js",
-        "sha256": "b7c7c95cca35cfc60208a3dcb9d7b7c519b94373162063a02fa2c0b997c3beb3",
-        "size": 706
+        "sha256": "53c4f4891dab73062e0ac45ac065caf04bcc6faf07eaaf9f47ed49b01115db82",
+        "size": 711
       },
       {
         "path": "public/manifest.webmanifest",
@@ -67,5 +67,5 @@
       }
     ]
   },
-  "signature": "3NPDpa9NYoWPTnL56uy8Xw/7Zx3oyh46h3xB3YACEU1oO7cYC4xNPQBOJaLzxHyImL7IhAr8ZINpV97Vwv9oCw=="
+  "signature": "JLNcaljHaqs1zziAOiECHAWBUlK5aIvhYBYxHvRZ2MRgvZNwsBPpPzYKLDu/LnD+6T3yfd/8lar+o66tQgOiBA=="
 }
