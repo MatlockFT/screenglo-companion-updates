@@ -1,18 +1,18 @@
 {
   "release": {
-    "version": "0.12.13",
-    "publishedAt": "2026-09-15T05:07:36.940Z",
-    "notes": "Japan Live TV: dynamically loads the iptv-org Japan playlist with channel categories and hourly refresh. TV supports HLS and DASH streams.",
-    "baseUrl": "https://raw.githubusercontent.com/MatlockFT/screenglo-companion-updates/main/releases/0.12.13/",
+    "version": "0.12.14",
+    "publishedAt": "2026-09-15T05:09:54.706Z",
+    "notes": "Japan Live TV playlist with correct channel names when provider headers contain commas.",
+    "baseUrl": "https://raw.githubusercontent.com/MatlockFT/screenglo-companion-updates/main/releases/0.12.14/",
     "files": [
       {
         "path": "server.js",
-        "sha256": "6533f3b6610c8e7253ad45847421ff39d21d832edc4d253f76771cadc2781d4d",
+        "sha256": "d8c5b9f80fcb0b50d3576f77440f5ea2bfd03d6dfb5628be015a407c5e06d44a",
         "size": 95378
       },
       {
         "path": "package.json",
-        "sha256": "a5151965fe1e2eed05595741a81621151f409fb2b96721d6c1d08592d9313c8b",
+        "sha256": "9a5c5b245a22072d237ec69c147f6ecafb21e9ddebf005034273b30a4b019ba7",
         "size": 226
       },
       {
@@ -27,8 +27,8 @@
       },
       {
         "path": "public/app.js",
-        "sha256": "38207d2ba89ccef5f6844d4d9cf1d6e3f339767aecf749223e281c679906ce33",
-        "size": 51058
+        "sha256": "47535965231b43241d475f783e1a04fb3010780dfe693f914b78e666aec272c0",
+        "size": 51291
       },
       {
         "path": "public/index.html",
@@ -42,7 +42,7 @@
       },
       {
         "path": "public/sw.js",
-        "sha256": "9430f6ac7054fa6f63349308a6667ed6fb431b0bea0d1bcb0a52c1167ef6bb50",
+        "sha256": "a44f0409d26dc655e33c308bd7ff244621883bdf55a6807dbe5417acfad6d888",
         "size": 709
       },
       {
@@ -67,5 +67,5 @@
       }
     ]
   },
-  "signature": "d/umIBBvTtZKZY+5iI2R4tizjKSfaQNlda4OIZoH0YJObglNSclQ8i62sJ5lc+HvO029knM8bdcsAme4uRagAg=="
+  "signature": "guYjEL/CBZZips2a8kG6n/lvwDfa98M0WkCd7pLFhSNVOX+UUKKu53g7H2IQS/wx8TvaoPK9u30SNgf1bOVABA=="
 }
