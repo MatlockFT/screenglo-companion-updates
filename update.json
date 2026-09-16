@@ -1,18 +1,18 @@
 {
   "release": {
-    "version": "0.12.14",
-    "publishedAt": "2026-09-15T05:09:54.706Z",
-    "notes": "Japan Live TV playlist with correct channel names when provider headers contain commas.",
-    "baseUrl": "https://raw.githubusercontent.com/MatlockFT/screenglo-companion-updates/main/releases/0.12.14/",
+    "version": "0.12.15",
+    "publishedAt": "2026-09-16T05:12:51.594Z",
+    "notes": "Live Guide redesign: classic numbered channel rows, preview panel, SCREENGLO colors and a visible Refresh action for playlists, cameras and streams.",
+    "baseUrl": "https://raw.githubusercontent.com/MatlockFT/screenglo-companion-updates/main/releases/0.12.15/",
     "files": [
       {
         "path": "server.js",
-        "sha256": "d8c5b9f80fcb0b50d3576f77440f5ea2bfd03d6dfb5628be015a407c5e06d44a",
+        "sha256": "5f4e4a38ed9650162a01ca53b9f86a3c9d7e892ec678c8caf3a8add919e2ac80",
         "size": 95378
       },
       {
         "path": "package.json",
-        "sha256": "9a5c5b245a22072d237ec69c147f6ecafb21e9ddebf005034273b30a4b019ba7",
+        "sha256": "ba54614b14313a341985be004d81c71e8515742e1c73e7339fc23915d288bb5a",
         "size": 226
       },
       {
@@ -27,23 +27,23 @@
       },
       {
         "path": "public/app.js",
-        "sha256": "47535965231b43241d475f783e1a04fb3010780dfe693f914b78e666aec272c0",
-        "size": 51291
+        "sha256": "a8b85a6bf9fee1f20dc819532b23a838413b462bf9ca6d3b3c8cc484a39951b7",
+        "size": 53455
       },
       {
         "path": "public/index.html",
-        "sha256": "937f661d2e4efdfaf097bf1b690b933e16369694b0b9213482f889a7c0c407f4",
-        "size": 14716
+        "sha256": "40b2b03faafafeb74a592c5ecdb0e274bf5e181e9ccefa4d6f6676d420e63bdd",
+        "size": 15294
       },
       {
         "path": "public/styles.css",
-        "sha256": "2e27c60fbcdfb9348bbd4a7dec54c317b1e6014ddc23fcae6f13c60db93050a4",
-        "size": 24399
+        "sha256": "d1542939248101029b18e1369e00729fa7a8f54f60e7d07608d546fdd3158800",
+        "size": 26285
       },
       {
         "path": "public/sw.js",
-        "sha256": "a44f0409d26dc655e33c308bd7ff244621883bdf55a6807dbe5417acfad6d888",
-        "size": 709
+        "sha256": "4aba78a46b8f3e91d14be402c2dd903bd011de6f31cbb1eed01f0bbc90ae9b7a",
+        "size": 714
       },
       {
         "path": "public/manifest.webmanifest",
@@ -67,5 +67,5 @@
       }
     ]
   },
-  "signature": "guYjEL/CBZZips2a8kG6n/lvwDfa98M0WkCd7pLFhSNVOX+UUKKu53g7H2IQS/wx8TvaoPK9u30SNgf1bOVABA=="
+  "signature": "kgZe6r6uHbWgb6bISLs4CtXH0GG/NibBesCPuNKDCHZNs2fNwMdLeDMQfGM7OAu2P622LMBd+ikXJ0uTvyfUAQ=="
 }
