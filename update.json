@@ -1,18 +1,18 @@
 {
   "release": {
-    "version": "0.12.16",
-    "publishedAt": "2026-09-21T17:03:11.739Z",
-    "notes": "Independent phone discovery; redesigned remote pad; phone downloads remain shared with the TV Library; smoother download state handling.",
-    "baseUrl": "https://raw.githubusercontent.com/MatlockFT/screenglo-companion-updates/main/releases/0.12.16/",
+    "version": "0.12.17",
+    "publishedAt": "2026-09-21T17:22:57.042Z",
+    "notes": "Library redesign with poster shelves, persistent watched and resume progress, and a finished-movie return-to-Library screen.",
+    "baseUrl": "https://raw.githubusercontent.com/MatlockFT/screenglo-companion-updates/main/releases/0.12.17/",
     "files": [
       {
         "path": "server.js",
-        "sha256": "0184a31d047feda16b44d19e772c10dfd3bae0fe786accfd0f9fcce206f06ca8",
-        "size": 95244
+        "sha256": "2ab5d89f40ad4f014d011a59963b9eff2945d9b1353f1dba9082c3f677d82406",
+        "size": 97620
       },
       {
         "path": "package.json",
-        "sha256": "12816b4aeba0255688416b4ff5e2c173d271186a82e2759b5dbe878430e25229",
+        "sha256": "1c0a010acc76e7b469b4e419ba48e61835ce6d60a37401c2e120e30ac47b54e2",
         "size": 226
       },
       {
@@ -27,8 +27,8 @@
       },
       {
         "path": "public/app.js",
-        "sha256": "2f403d36fce8ea6cb1770722b01d56a92433df8a23ae57a6243aff52f9049ce7",
-        "size": 53251
+        "sha256": "2fca3180b35e1bdbe1223cba374b3d6abdb788299ca1e4c675c4ccb8449e7b89",
+        "size": 53656
       },
       {
         "path": "public/index.html",
@@ -42,8 +42,8 @@
       },
       {
         "path": "public/sw.js",
-        "sha256": "0a50ce177ffe8685dcc69d700d9c9afa38e317fd4318066123da5ad8065d3e42",
-        "size": 721
+        "sha256": "ba854305a16d28ce3ae92858987c2f74eb63ffd917902cd9dce0c436d1d28b2f",
+        "size": 719
       },
       {
         "path": "public/manifest.webmanifest",
@@ -67,5 +67,5 @@
       }
     ]
   },
-  "signature": "3gd98IDQF17iqmcjvsapZGRr+vftcAr9QoDqFpenw7GzE59oLP1e7XLDhnaXUs1mJJkhsRCI4+IKzJsD18o5CA=="
+  "signature": "pLHbt2Exk3pq7gR2k+MC0WGaBXOlv4NqJAgy0iX+BlXU+7EC6nlUgF+etyAIwOn4MDX+AIlcrS3fdeeomjM4AA=="
 }
