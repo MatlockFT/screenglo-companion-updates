@@ -1,18 +1,18 @@
 {
   "release": {
-    "version": "0.12.15",
-    "publishedAt": "2026-09-16T05:12:51.594Z",
-    "notes": "Live Guide redesign: classic numbered channel rows, preview panel, SCREENGLO colors and a visible Refresh action for playlists, cameras and streams.",
-    "baseUrl": "https://raw.githubusercontent.com/MatlockFT/screenglo-companion-updates/main/releases/0.12.15/",
+    "version": "0.12.16",
+    "publishedAt": "2026-09-21T17:03:11.739Z",
+    "notes": "Independent phone discovery; redesigned remote pad; phone downloads remain shared with the TV Library; smoother download state handling.",
+    "baseUrl": "https://raw.githubusercontent.com/MatlockFT/screenglo-companion-updates/main/releases/0.12.16/",
     "files": [
       {
         "path": "server.js",
-        "sha256": "5f4e4a38ed9650162a01ca53b9f86a3c9d7e892ec678c8caf3a8add919e2ac80",
-        "size": 95378
+        "sha256": "0184a31d047feda16b44d19e772c10dfd3bae0fe786accfd0f9fcce206f06ca8",
+        "size": 95244
       },
       {
         "path": "package.json",
-        "sha256": "ba54614b14313a341985be004d81c71e8515742e1c73e7339fc23915d288bb5a",
+        "sha256": "12816b4aeba0255688416b4ff5e2c173d271186a82e2759b5dbe878430e25229",
         "size": 226
       },
       {
@@ -27,8 +27,8 @@
       },
       {
         "path": "public/app.js",
-        "sha256": "a8b85a6bf9fee1f20dc819532b23a838413b462bf9ca6d3b3c8cc484a39951b7",
-        "size": 53455
+        "sha256": "2f403d36fce8ea6cb1770722b01d56a92433df8a23ae57a6243aff52f9049ce7",
+        "size": 53251
       },
       {
         "path": "public/index.html",
@@ -37,13 +37,13 @@
       },
       {
         "path": "public/styles.css",
-        "sha256": "d1542939248101029b18e1369e00729fa7a8f54f60e7d07608d546fdd3158800",
-        "size": 26285
+        "sha256": "a2d8bc83f7adb2f417efc757cddc1e35fffd3bb3fdaac0d490a779bdd2420ffa",
+        "size": 26112
       },
       {
         "path": "public/sw.js",
-        "sha256": "4aba78a46b8f3e91d14be402c2dd903bd011de6f31cbb1eed01f0bbc90ae9b7a",
-        "size": 714
+        "sha256": "0a50ce177ffe8685dcc69d700d9c9afa38e317fd4318066123da5ad8065d3e42",
+        "size": 721
       },
       {
         "path": "public/manifest.webmanifest",
@@ -67,5 +67,5 @@
       }
     ]
   },
-  "signature": "kgZe6r6uHbWgb6bISLs4CtXH0GG/NibBesCPuNKDCHZNs2fNwMdLeDMQfGM7OAu2P622LMBd+ikXJ0uTvyfUAQ=="
+  "signature": "3gd98IDQF17iqmcjvsapZGRr+vftcAr9QoDqFpenw7GzE59oLP1e7XLDhnaXUs1mJJkhsRCI4+IKzJsD18o5CA=="
 }
