@@ -1,18 +1,18 @@
 {
   "release": {
-    "version": "0.12.18",
-    "publishedAt": "2026-09-22T00:31:44.605Z",
-    "notes": "QA reliability update: accurate watched and resume state, playback lifecycle fixes, and aligned TV/phone Library progress.",
-    "baseUrl": "https://raw.githubusercontent.com/MatlockFT/screenglo-companion-updates/main/releases/0.12.18/",
+    "version": "0.12.19",
+    "publishedAt": "2026-09-22T00:36:39.452Z",
+    "notes": "QA reliability update: accurate watched and resume progress, exact playback lifecycle state, and truthful TV command delivery.",
+    "baseUrl": "https://raw.githubusercontent.com/MatlockFT/screenglo-companion-updates/main/releases/0.12.19/",
     "files": [
       {
         "path": "server.js",
-        "sha256": "3c0942de8186679595e7529d26233defa78f80ccbec14718bb0ef450b7351d0a",
-        "size": 97665
+        "sha256": "8a122a7ec2dea09317317a107503d156eddaeec9bd23ce46afc016d90c4f79be",
+        "size": 97590
       },
       {
         "path": "package.json",
-        "sha256": "e8458d11ac8732151708eef6865881b995fd16002e17eee3f85bd74380e8d31b",
+        "sha256": "26dfbbfd53bd1517813ff14afb3db67c8871aba342a108c05c56aa67911de7dc",
         "size": 226
       },
       {
@@ -42,7 +42,7 @@
       },
       {
         "path": "public/sw.js",
-        "sha256": "e435886cfe53d1aacedbdd7cd05ce6ad25f6c7d28e9f244173aa98ba3c536f49",
+        "sha256": "4c4e6f27a1448070fa09592d047a5656c2973dad92444e7f0905f9696b07e204",
         "size": 718
       },
       {
@@ -67,5 +67,5 @@
       }
     ]
   },
-  "signature": "B3pfZZbTE35stGtWpSPJChI6xAHh5+Pp1j9S5fYng+BpRorzMFi1FonoHWAsowrezHQFK9xrB+4W9tu3wWliBQ=="
+  "signature": "GNuXUa2SPUyMERJx4QfWtrpzl6NvWhy96fzVlW/g/1/WUW/tMclHmBMJsHjD///Ofi0sKj3IN1UtvNvoLrtKBA=="
 }
