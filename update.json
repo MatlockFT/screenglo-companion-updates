@@ -1,18 +1,18 @@
 {
   "release": {
-    "version": "0.12.17",
-    "publishedAt": "2026-09-21T17:22:57.042Z",
-    "notes": "Library redesign with poster shelves, persistent watched and resume progress, and a finished-movie return-to-Library screen.",
-    "baseUrl": "https://raw.githubusercontent.com/MatlockFT/screenglo-companion-updates/main/releases/0.12.17/",
+    "version": "0.12.18",
+    "publishedAt": "2026-09-22T00:31:44.605Z",
+    "notes": "QA reliability update: accurate watched and resume state, playback lifecycle fixes, and aligned TV/phone Library progress.",
+    "baseUrl": "https://raw.githubusercontent.com/MatlockFT/screenglo-companion-updates/main/releases/0.12.18/",
     "files": [
       {
         "path": "server.js",
-        "sha256": "2ab5d89f40ad4f014d011a59963b9eff2945d9b1353f1dba9082c3f677d82406",
-        "size": 97620
+        "sha256": "3c0942de8186679595e7529d26233defa78f80ccbec14718bb0ef450b7351d0a",
+        "size": 97665
       },
       {
         "path": "package.json",
-        "sha256": "1c0a010acc76e7b469b4e419ba48e61835ce6d60a37401c2e120e30ac47b54e2",
+        "sha256": "e8458d11ac8732151708eef6865881b995fd16002e17eee3f85bd74380e8d31b",
         "size": 226
       },
       {
@@ -27,8 +27,8 @@
       },
       {
         "path": "public/app.js",
-        "sha256": "2fca3180b35e1bdbe1223cba374b3d6abdb788299ca1e4c675c4ccb8449e7b89",
-        "size": 53656
+        "sha256": "5ba9abab57a27889ef648959a217cb849b4fcb91f09af76414c7c5c1a6615f11",
+        "size": 53700
       },
       {
         "path": "public/index.html",
@@ -42,8 +42,8 @@
       },
       {
         "path": "public/sw.js",
-        "sha256": "ba854305a16d28ce3ae92858987c2f74eb63ffd917902cd9dce0c436d1d28b2f",
-        "size": 719
+        "sha256": "e435886cfe53d1aacedbdd7cd05ce6ad25f6c7d28e9f244173aa98ba3c536f49",
+        "size": 718
       },
       {
         "path": "public/manifest.webmanifest",
@@ -67,5 +67,5 @@
       }
     ]
   },
-  "signature": "pLHbt2Exk3pq7gR2k+MC0WGaBXOlv4NqJAgy0iX+BlXU+7EC6nlUgF+etyAIwOn4MDX+AIlcrS3fdeeomjM4AA=="
+  "signature": "B3pfZZbTE35stGtWpSPJChI6xAHh5+Pp1j9S5fYng+BpRorzMFi1FonoHWAsowrezHQFK9xrB+4W9tu3wWliBQ=="
 }
