@@ -1,24 +1,24 @@
 {
   "release": {
-    "version": "0.12.20",
-    "publishedAt": "2026-09-22T18:20:10.187Z",
-    "notes": "Live Collections: rotating Letterboxd directories, TMDB-powered collections, watched filtering, refresh, and load-more on TV and phone.",
-    "baseUrl": "https://raw.githubusercontent.com/MatlockFT/screenglo-companion-updates/main/releases/0.12.20/",
+    "version": "0.12.21",
+    "publishedAt": "2026-09-23T15:48:16.534Z",
+    "notes": "Live collections browse faster, return to the same collection, and keep cached picks available during source outages.",
+    "baseUrl": "https://raw.githubusercontent.com/MatlockFT/screenglo-companion-updates/main/releases/0.12.21/",
     "files": [
       {
         "path": "server.js",
-        "sha256": "1f256e8833858a3736a1bbf02a8a7a590f8b1e84c79d3c4783c551b1f12cc8e4",
-        "size": 105683
+        "sha256": "a2e3208e6934a4268e32a0eee49aa693f428912a6c5284809b5a32b030fa997c",
+        "size": 106167
       },
       {
         "path": "package.json",
-        "sha256": "b0a95b96f94266cdbcede131e8bd792b8fdba876e4d7632b3ab03d886dc14783",
+        "sha256": "8d2f8551d5f36a2de476bcf862e901406e38b82c65dcfb858b472ff7fec364a5",
         "size": 226
       },
       {
         "path": "start.ps1",
-        "sha256": "245653ce791c0b6e11c51c90181861e7cb609927819a527761ac06478cd4139a",
-        "size": 8809
+        "sha256": "e62e0ec101a225d920a2fe88fd51af769c08e392bfe2fcd000bcad057120bd4c",
+        "size": 8810
       },
       {
         "path": "apply-update.ps1",
@@ -27,8 +27,8 @@
       },
       {
         "path": "public/app.js",
-        "sha256": "2456783af7097651c6088b2f2ae6f006e388cc0b5c0ed59c0c6831a726e94c3d",
-        "size": 55041
+        "sha256": "7a7f7b9894f804e9a4cfb0d2b79df0edcbf22c46da08f46a42cde3d2e548171c",
+        "size": 55420
       },
       {
         "path": "public/index.html",
@@ -42,8 +42,8 @@
       },
       {
         "path": "public/sw.js",
-        "sha256": "6d9cc5f4badd05790af10d4bd08e8e022771fbdbe38c3eb8bb7ceb14be2290e4",
-        "size": 720
+        "sha256": "fed5f029600869133209979b0d2c1bddbb92e486ed55260d9061652a8af1e022",
+        "size": 722
       },
       {
         "path": "public/manifest.webmanifest",
@@ -67,5 +67,5 @@
       }
     ]
   },
-  "signature": "Gey7+3xk75kkykAzJWtOiC+6nOiRY3ATmQmNFOQQMk1io+fxjyZeUqdfR7fFQ+z1Dp5tePwTzY2j8OG3jwXIDQ=="
+  "signature": "djm9N7M69uNuMeeu5kavNKY08IeXisytGZl5aPU9SVgA0WbKnsUwWlxpD+SRHIj0VzhDgwMhl4aWlnoo8og9DQ=="
 }
