@@ -1,23 +1,23 @@
 {
   "release": {
-    "version": "0.12.29",
-    "publishedAt": "2026-09-28T03:36:40.071Z",
-    "notes": "Minimal phone Control screen; move TV and PC status to Settings while preserving contextual keyboard.",
-    "baseUrl": "https://raw.githubusercontent.com/MatlockFT/screenglo-companion-updates/main/releases/0.12.29/",
+    "version": "0.12.30",
+    "publishedAt": "2026-09-28T03:49:51.674Z",
+    "notes": "Phone Control trackpad layout, no scrollbar, soft select target, concise copy across phone screens.",
+    "baseUrl": "https://raw.githubusercontent.com/MatlockFT/screenglo-companion-updates/main/releases/0.12.30/",
     "files": [
       {
         "path": "server.js",
-        "sha256": "2f5893b02b5badfd65eeb7b57a63d021ae01f21fa82bdcee3598624e07623b87",
+        "sha256": "c730df7ebbee2957ecae1fefe701e69345efeec496cd39d44ad08f4b5c2d3946",
         "size": 109760
       },
       {
         "path": "package.json",
-        "sha256": "a3f55b85b05921d8a357d2177703505d3a758b18594836e4631a4f3ae476e30d",
+        "sha256": "2f5d7922a6407ff63d0ee2148eb0b597e269be9ed64b924db434ccd49f8c0e15",
         "size": 226
       },
       {
         "path": "start.ps1",
-        "sha256": "4d7aa7df48d2c475aecc4c2ac69e0d2e3faa312cff27f379faba8aa9e797e682",
+        "sha256": "ea2dfee5c0db3a298d1db3bd8f2411e82ddee3c49094f30d7fffc43a09df7bd4",
         "size": 8810
       },
       {
@@ -27,23 +27,23 @@
       },
       {
         "path": "public/app.js",
-        "sha256": "a142348ea19d710663fbf437ad2ee387d815ded7c2976f80ddf6839cebb52d84",
-        "size": 56348
+        "sha256": "1a5d28887ac1dfbdfd1f979c12f45ca24fa5374e23069e4026e0fedbef27464b",
+        "size": 57400
       },
       {
         "path": "public/index.html",
-        "sha256": "c9739582238d7a406ddcc00bfa1bf87f1d8dcaded59a1e538b002b192c371fc9",
-        "size": 15022
+        "sha256": "c7ac35e2e4c583d3a276cba1b16f43776ece7077b2396cb60633bd4888c778a8",
+        "size": 14723
       },
       {
         "path": "public/styles.css",
-        "sha256": "e8ed39fed813fabe08eb76349a30a6d85f62115c82ca07d4da63ab91c0e7ae4b",
-        "size": 37592
+        "sha256": "2201d06d022bf5702b4c83c43eb2cb130a8bb67359179100a93db8fcdbb5d467",
+        "size": 38492
       },
       {
         "path": "public/sw.js",
-        "sha256": "a0befa4a68cfd44c880fad9fd5f86a4d0bd8347bf951c208f644e2103978de6a",
-        "size": 779
+        "sha256": "540d5064289484d1a76799f91e888a25d938d3dbd312341671f222eb2541322e",
+        "size": 772
       },
       {
         "path": "public/manifest.webmanifest",
@@ -67,5 +67,5 @@
       }
     ]
   },
-  "signature": "ow6pFmDscgI2ux6eSk7/azw5pi3ZLRzZog0l+j4HBk4yYpH6l4zwBKtG0o6WN1LHjBWZs9oYcV4lojuvE3ADCA=="
+  "signature": "G/tBzKpvw4qv345YSrmT8ZSDru0BymsRJhyByQrxnVnkog7O1U04e7uNJIIGje96WvkcC+SpTAe8JXg4nKuvBg=="
 }
