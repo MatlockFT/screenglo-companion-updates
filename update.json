@@ -1,23 +1,23 @@
 {
   "release": {
-    "version": "0.12.22",
-    "publishedAt": "2026-09-28T02:41:49.656Z",
-    "notes": "Search reliability: longer upstream timeout, cached results, and phone search request handling.",
-    "baseUrl": "https://raw.githubusercontent.com/MatlockFT/screenglo-companion-updates/main/releases/0.12.22/",
+    "version": "0.12.23",
+    "publishedAt": "2026-09-28T02:51:01.926Z",
+    "notes": "Phone search now shows progress and a retry prompt if the connection stalls; phone cache updates activate promptly.",
+    "baseUrl": "https://raw.githubusercontent.com/MatlockFT/screenglo-companion-updates/main/releases/0.12.23/",
     "files": [
       {
         "path": "server.js",
-        "sha256": "cf1c33a5fe8eaa57da2aeaa84df475a961e28e98c12aa26e764ba7118666c84a",
+        "sha256": "7810063b4b39b476fc670b8c9427c70d8698246e8df1bc1486ef662a04fceb91",
         "size": 107272
       },
       {
         "path": "package.json",
-        "sha256": "7e6201f1c9e6722d02c8f706c96da05b516936fcc6759927f213ad209ad31b09",
+        "sha256": "0099af43f8d3ee4d52fc8358b062fee933f3db5af85cd81fc0af2ebcbec70099",
         "size": 226
       },
       {
         "path": "start.ps1",
-        "sha256": "7ab133fc8102333b30ece18f197144bdf72f47bea20f25ea05f471afef84b9fe",
+        "sha256": "c734cfe1093182fe929be1c84aab57143cebad727daf3bcc7287467b95485228",
         "size": 8810
       },
       {
@@ -27,8 +27,8 @@
       },
       {
         "path": "public/app.js",
-        "sha256": "032977c20e6cf4f8f6ac565fab95a6a11ff78f5fcfad1d3b86ca7d6a1d696468",
-        "size": 56245
+        "sha256": "83e1d5c4cacabbcd036df4fc8d18a64ac546175c5ec0e85fdf3e5b326336ad5e",
+        "size": 56659
       },
       {
         "path": "public/index.html",
@@ -42,8 +42,8 @@
       },
       {
         "path": "public/sw.js",
-        "sha256": "6f75c5d79e27a6cb0cc2c700b235a1e794f2d7c7fe6cf16efd83a3c46726cadb",
-        "size": 720
+        "sha256": "ac020d8066b26e49375f8c0236beb1adccdc0e528a75c012547a286bf6ce4818",
+        "size": 776
       },
       {
         "path": "public/manifest.webmanifest",
@@ -67,5 +67,5 @@
       }
     ]
   },
-  "signature": "TSVwx2OdVNDsrkC133DcuqfAKnOkcMFu/3avW+YHW+ovfyL1Sii/qsWIJAvCEYdJLK8IP2iGZ4IekH5FZBX9CQ=="
+  "signature": "zm6p/1P4TbXvaMV+QPjB4Qq0K27Fwh3cbJ8Wy5ycOHqJnZfbBr+4NGmWpg0DTLkWrnYlV441UG/VS/QJ1dkLCw=="
 }
