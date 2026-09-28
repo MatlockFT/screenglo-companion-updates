@@ -1,23 +1,23 @@
 {
   "release": {
-    "version": "0.12.24",
-    "publishedAt": "2026-09-28T02:59:40.103Z",
-    "notes": "Quality pass: bounded qBittorrent reads, stable phone status polling, and reliable cached search selections.",
-    "baseUrl": "https://raw.githubusercontent.com/MatlockFT/screenglo-companion-updates/main/releases/0.12.24/",
+    "version": "0.12.25",
+    "publishedAt": "2026-09-28T03:07:12.906Z",
+    "notes": "Quality and search reliability: backup catalog search, bounded qBittorrent reads, stable phone polling, and cached result selection.",
+    "baseUrl": "https://raw.githubusercontent.com/MatlockFT/screenglo-companion-updates/main/releases/0.12.25/",
     "files": [
       {
         "path": "server.js",
-        "sha256": "2507dc3fd26e79b1bce8bc9fb62b69e05389f6e2b9412ddad8f4c4d2c1e57f7b",
-        "size": 107941
+        "sha256": "ed93b7f88588299f4c89f126fe9483b40b0c683569d3c4b15510537772857072",
+        "size": 109760
       },
       {
         "path": "package.json",
-        "sha256": "c3ed9ab87aa145fb5444bf527a0c00e005e5918b606ff2358490004f7467db42",
+        "sha256": "b9d37fac9b4db10b44110a4802d40f33c47e50fac1613d4384470ce602a8c33c",
         "size": 226
       },
       {
         "path": "start.ps1",
-        "sha256": "9d45ccff89c76344dc11190f5dcc990b318314cef082633d51634271a48a785c",
+        "sha256": "136e5099b8557dedb3c67583e62605bd6bf7697777412e866fa2b842a42616d2",
         "size": 8810
       },
       {
@@ -42,8 +42,8 @@
       },
       {
         "path": "public/sw.js",
-        "sha256": "681ab664af41250ab30f41583d7c0f4da4bbbf494d42758b4cabc4350c4d2b9d",
-        "size": 776
+        "sha256": "1633a08f7870bb93ec70879f820764c401c178dd961415545756cef53220af30",
+        "size": 779
       },
       {
         "path": "public/manifest.webmanifest",
@@ -67,5 +67,5 @@
       }
     ]
   },
-  "signature": "2EdLF1rV3jsek81xlr+LTLX/HoR6RhU3z3r1a0brirPQpi1iUnGnFnEllvf7XoU50IgIO+ShLY/j2BJ1XT8dAQ=="
+  "signature": "GF89MIkj2u3DUuVOUuGWxeHEu4X7ie6Ojn4Ry79H+ndyaJ90s35kfFUl6KphrdPoH5klzH+x3JxAMGQnf5UkDQ=="
 }
