@@ -1,23 +1,23 @@
 {
   "release": {
-    "version": "0.12.26",
-    "publishedAt": "2026-09-28T03:20:51.327Z",
-    "notes": "Phone companion dark glass redesign, open lists, simplified controls, and clearer navigation.",
-    "baseUrl": "https://raw.githubusercontent.com/MatlockFT/screenglo-companion-updates/main/releases/0.12.26/",
+    "version": "0.12.27",
+    "publishedAt": "2026-09-28T03:22:41.281Z",
+    "notes": "Borderless dark-glass phone redesign with softer controls and open layouts.",
+    "baseUrl": "https://raw.githubusercontent.com/MatlockFT/screenglo-companion-updates/main/releases/0.12.27/",
     "files": [
       {
         "path": "server.js",
-        "sha256": "bc90833ae8c736196c0aed8fb3e3af0bb7eb4846db8272995eff2bcf5b62bd14",
+        "sha256": "5dfdb0d35e435774d21ab83d9b44698ce5cc7740b30ddb335930457ced55ccb8",
         "size": 109760
       },
       {
         "path": "package.json",
-        "sha256": "d915b3aec78f1704a62fc49765bd5e2c49e71c79038ae82aae55ea87679fccc1",
+        "sha256": "0c9a4f2997aa7921616753f26c10dc58fcd2047f38a94b4e8116d0e9c2d9606e",
         "size": 226
       },
       {
         "path": "start.ps1",
-        "sha256": "229f16d969a3a5c156585bbb01a691ac45c2d986ae1fcb7312da39a772b5906d",
+        "sha256": "9953adbf9594124250a63a0d51735d9a02f2c4f47896001cbf721830111c187c",
         "size": 8810
       },
       {
@@ -37,12 +37,12 @@
       },
       {
         "path": "public/styles.css",
-        "sha256": "bae2940c41be3fbe7290157a964d56e58a4c7f79d796f280c2704edbbc96a672",
-        "size": 36560
+        "sha256": "08530f3c309ff6607b1a5903b32ddf1267a4a1b5d3ac44036d285221a038303f",
+        "size": 37174
       },
       {
         "path": "public/sw.js",
-        "sha256": "6c00e6be4e773a92f1f5322cbb181fd5449b8fdf0ebd0af7a91313296185c00a",
+        "sha256": "036ff5f9a740c181158f2b31f0304e92eabc316274e6f11b08e003c879a63821",
         "size": 772
       },
       {
@@ -67,5 +67,5 @@
       }
     ]
   },
-  "signature": "03HwIOYa7jLoJN0zNIr1CALC12Xz53pbXBCrFrlNti+P9RfN8Kk8Oica742S0lVyS4NZ2TIhWkN7TEoLyqiaBQ=="
+  "signature": "xxxn1gnedIF93jjMwh7pA4bKdAQkVW5S29uUpRB/PUtgHP4++l8Axr+PjnFS9yqcKxfr71iYzcC0XiKN8U6TCw=="
 }
