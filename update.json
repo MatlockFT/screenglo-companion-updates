@@ -1,23 +1,23 @@
 {
   "release": {
-    "version": "0.12.27",
-    "publishedAt": "2026-09-28T03:22:41.281Z",
-    "notes": "Borderless dark-glass phone redesign with softer controls and open layouts.",
-    "baseUrl": "https://raw.githubusercontent.com/MatlockFT/screenglo-companion-updates/main/releases/0.12.27/",
+    "version": "0.12.28",
+    "publishedAt": "2026-09-28T03:28:55.602Z",
+    "notes": "Phone UI continuous dark canvas: remove tinted panels, floating controls and seamless navigation.",
+    "baseUrl": "https://raw.githubusercontent.com/MatlockFT/screenglo-companion-updates/main/releases/0.12.28/",
     "files": [
       {
         "path": "server.js",
-        "sha256": "5dfdb0d35e435774d21ab83d9b44698ce5cc7740b30ddb335930457ced55ccb8",
+        "sha256": "59a7470c344dfc628a11225dc07ac2993904f06924b534d0b21c0fc4b9ac8628",
         "size": 109760
       },
       {
         "path": "package.json",
-        "sha256": "0c9a4f2997aa7921616753f26c10dc58fcd2047f38a94b4e8116d0e9c2d9606e",
+        "sha256": "367fe900b813f05678af822af83dfb68b65f78b952e607b1eb7630e458ba13a0",
         "size": 226
       },
       {
         "path": "start.ps1",
-        "sha256": "9953adbf9594124250a63a0d51735d9a02f2c4f47896001cbf721830111c187c",
+        "sha256": "9734bc6fc5e2999391987c22bf19f2e5ee0888b0f6e8a5062b294c30df25ae80",
         "size": 8810
       },
       {
@@ -37,13 +37,13 @@
       },
       {
         "path": "public/styles.css",
-        "sha256": "08530f3c309ff6607b1a5903b32ddf1267a4a1b5d3ac44036d285221a038303f",
-        "size": 37174
+        "sha256": "e0cfb3e75e9a1225ae8b37c91c53ae4a81c6881ec876a5786d2d1ec10f3d5249",
+        "size": 37316
       },
       {
         "path": "public/sw.js",
-        "sha256": "036ff5f9a740c181158f2b31f0304e92eabc316274e6f11b08e003c879a63821",
-        "size": 772
+        "sha256": "bd5dd3b46d13e3d3848a79a9b872081d6a98571e3421db703275f12e62b43c6f",
+        "size": 781
       },
       {
         "path": "public/manifest.webmanifest",
@@ -67,5 +67,5 @@
       }
     ]
   },
-  "signature": "xxxn1gnedIF93jjMwh7pA4bKdAQkVW5S29uUpRB/PUtgHP4++l8Axr+PjnFS9yqcKxfr71iYzcC0XiKN8U6TCw=="
+  "signature": "j2ti2Fd++EeCCqN7tE28R+mYU0TlbdJi3UkEhh4Y2caTbmVgE+lJSmAHB/2mfc4TqO3rknv3VFuDx0+lQnMXDg=="
 }
