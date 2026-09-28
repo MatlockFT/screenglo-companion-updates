@@ -1,23 +1,23 @@
 {
   "release": {
-    "version": "0.12.23",
-    "publishedAt": "2026-09-28T02:51:01.926Z",
-    "notes": "Phone search now shows progress and a retry prompt if the connection stalls; phone cache updates activate promptly.",
-    "baseUrl": "https://raw.githubusercontent.com/MatlockFT/screenglo-companion-updates/main/releases/0.12.23/",
+    "version": "0.12.24",
+    "publishedAt": "2026-09-28T02:59:40.103Z",
+    "notes": "Quality pass: bounded qBittorrent reads, stable phone status polling, and reliable cached search selections.",
+    "baseUrl": "https://raw.githubusercontent.com/MatlockFT/screenglo-companion-updates/main/releases/0.12.24/",
     "files": [
       {
         "path": "server.js",
-        "sha256": "7810063b4b39b476fc670b8c9427c70d8698246e8df1bc1486ef662a04fceb91",
-        "size": 107272
+        "sha256": "2507dc3fd26e79b1bce8bc9fb62b69e05389f6e2b9412ddad8f4c4d2c1e57f7b",
+        "size": 107941
       },
       {
         "path": "package.json",
-        "sha256": "0099af43f8d3ee4d52fc8358b062fee933f3db5af85cd81fc0af2ebcbec70099",
+        "sha256": "c3ed9ab87aa145fb5444bf527a0c00e005e5918b606ff2358490004f7467db42",
         "size": 226
       },
       {
         "path": "start.ps1",
-        "sha256": "c734cfe1093182fe929be1c84aab57143cebad727daf3bcc7287467b95485228",
+        "sha256": "9d45ccff89c76344dc11190f5dcc990b318314cef082633d51634271a48a785c",
         "size": 8810
       },
       {
@@ -27,8 +27,8 @@
       },
       {
         "path": "public/app.js",
-        "sha256": "83e1d5c4cacabbcd036df4fc8d18a64ac546175c5ec0e85fdf3e5b326336ad5e",
-        "size": 56659
+        "sha256": "64c2f42a62eefca2d30c7f49c5d2facd562c0f2451cb4293f2c94afd77e50d6b",
+        "size": 57103
       },
       {
         "path": "public/index.html",
@@ -42,7 +42,7 @@
       },
       {
         "path": "public/sw.js",
-        "sha256": "ac020d8066b26e49375f8c0236beb1adccdc0e528a75c012547a286bf6ce4818",
+        "sha256": "681ab664af41250ab30f41583d7c0f4da4bbbf494d42758b4cabc4350c4d2b9d",
         "size": 776
       },
       {
@@ -67,5 +67,5 @@
       }
     ]
   },
-  "signature": "zm6p/1P4TbXvaMV+QPjB4Qq0K27Fwh3cbJ8Wy5ycOHqJnZfbBr+4NGmWpg0DTLkWrnYlV441UG/VS/QJ1dkLCw=="
+  "signature": "2EdLF1rV3jsek81xlr+LTLX/HoR6RhU3z3r1a0brirPQpi1iUnGnFnEllvf7XoU50IgIO+ShLY/j2BJ1XT8dAQ=="
 }
