@@ -1,23 +1,23 @@
 {
   "release": {
-    "version": "0.12.33",
-    "publishedAt": "2026-11-02T05:11:46.571Z",
-    "notes": "Separate Search and Collections, preserve phone navigation history, and simplify Library titles.",
-    "baseUrl": "https://raw.githubusercontent.com/MatlockFT/screenglo-companion-updates/main/releases/0.12.33/",
+    "version": "0.12.34",
+    "publishedAt": "2026-11-02T05:46:34.074Z",
+    "notes": "QA polish: reset Library to Ready and keep navigation state predictable.",
+    "baseUrl": "https://raw.githubusercontent.com/MatlockFT/screenglo-companion-updates/main/releases/0.12.34/",
     "files": [
       {
         "path": "server.js",
-        "sha256": "a15da79b97d87555d4158f9298078768ef9ac8e043ecc6244c5d60f1d98b85db",
+        "sha256": "a6d7371de7508cf214eb56eb8fdd4ebf6769bee0d3178a19124e0435fb4ccbd2",
         "size": 109762
       },
       {
         "path": "package.json",
-        "sha256": "0cebe24799689e66db8156bb03062ff12f47d9c6bf9cd90723dfa9e89fca4b56",
+        "sha256": "ea0f90700db4cf64b7f6331572ebacc480cf9b8dd3617dc3f7e9332729b6ff52",
         "size": 226
       },
       {
         "path": "start.ps1",
-        "sha256": "002ed184086af8d421497f4df3fe42498d07323937c924d846a99bc27ab82c20",
+        "sha256": "21acbffd65c29cd43ce8b855b9174a9b75f9ea0dc261a6cace4e49dd3cb980df",
         "size": 9172
       },
       {
@@ -27,8 +27,8 @@
       },
       {
         "path": "public/app.js",
-        "sha256": "88c9a383efa9f96aac969eb7e25411daf99084293b80822c70be2b9f0dc5b29d",
-        "size": 62995
+        "sha256": "b176cc5b031315d669675a0808dfcd0a3aa8a6ff5d77f7f6f02f320c8605d030",
+        "size": 63210
       },
       {
         "path": "public/index.html",
@@ -42,8 +42,8 @@
       },
       {
         "path": "public/sw.js",
-        "sha256": "16133ab4800171a0d650370a2d1d6a0b53130f46524353f8d9d91db18f5b176c",
-        "size": 774
+        "sha256": "267902e296bc28ae9ea28fcf1fddf97517d151b9069cf01e97321da1ed3237b1",
+        "size": 777
       },
       {
         "path": "public/manifest.webmanifest",
@@ -67,5 +67,5 @@
       }
     ]
   },
-  "signature": "SmVu6OmSFVaDr/FgtUDrPIwu/m4fdae7MQFu18awQPuv82PMEfdyGblB6sK4onxWzaocXDbrck71miabZ0fnAg=="
+  "signature": "zOhA+yAdWoivFFoI7XcsfiC0p6tkruN8TOMV6u5vxmTCJq5t3Hy4DJb7pDdSsPlr5Gm5C43Xe9QoONZ+ICeACA=="
 }
