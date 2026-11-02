@@ -1,24 +1,24 @@
 {
   "release": {
-    "version": "0.12.31",
-    "publishedAt": "2026-11-02T04:46:29.120Z",
-    "notes": "Collections-only browsing, cleaner phone search, active-download handoff, and return-position navigation.",
-    "baseUrl": "https://raw.githubusercontent.com/MatlockFT/screenglo-companion-updates/main/releases/0.12.31/",
+    "version": "0.12.32",
+    "publishedAt": "2026-11-02T04:49:14.252Z",
+    "notes": "Collections browsing and search return navigation; repair Windows restart when an older server holds the port.",
+    "baseUrl": "https://raw.githubusercontent.com/MatlockFT/screenglo-companion-updates/main/releases/0.12.32/",
     "files": [
       {
         "path": "server.js",
-        "sha256": "7a7e6264faeacccf7c18b88a18ecbccc8a1e01b49c3a52a624b0064c86fb138c",
-        "size": 109760
+        "sha256": "b4a3f039c6af1463bc744503d53d7f961ee779ac8af83616316fd83ea7d53fe6",
+        "size": 109762
       },
       {
         "path": "package.json",
-        "sha256": "bad12021c2291cbaafab2e92843589bd7b0a431d1c32d83f85d10bf3543fd0bc",
+        "sha256": "6815971094b80d34cd87e75b99761b53fe088ea10d75d7120272eccbbc595048",
         "size": 226
       },
       {
         "path": "start.ps1",
-        "sha256": "f19890dd3bb0b7dc60e1f1eaf099f41779a4da7833d75632c995e6725e1ba5f3",
-        "size": 8810
+        "sha256": "b910f81d558a2472ab65fdfc9f125640cfd5e646e7623ad72329a365d9d8fd4a",
+        "size": 9172
       },
       {
         "path": "apply-update.ps1",
@@ -42,7 +42,7 @@
       },
       {
         "path": "public/sw.js",
-        "sha256": "db66ec8ceda8d42a8d8287590aa1081900df369ff9972468b928f25f0df2a7b9",
+        "sha256": "49a06bb2c309a5187405b72432b5bee777cd1bd4f345c8870bef3b7701d8f91b",
         "size": 775
       },
       {
@@ -67,5 +67,5 @@
       }
     ]
   },
-  "signature": "XWyO8aFItWAC23fpZm1B3Sr7BlfEvCQ1CFoCFAI2OiNwCNdkYeolGmy/0GbD/fWSt2enGLmdlmB0S3iHIg59Dg=="
+  "signature": "5BbdDuYpKvoL/0F9DVCIN0XQVjDQUEE6CTl6kz8o0l8SdGw+EQ2ZlPZ47FuW1IUtzMzwckK6e440FodmsiftCQ=="
 }
