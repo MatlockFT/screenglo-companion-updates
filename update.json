@@ -1,23 +1,23 @@
 {
   "release": {
-    "version": "0.12.32",
-    "publishedAt": "2026-11-02T04:49:14.252Z",
-    "notes": "Collections browsing and search return navigation; repair Windows restart when an older server holds the port.",
-    "baseUrl": "https://raw.githubusercontent.com/MatlockFT/screenglo-companion-updates/main/releases/0.12.32/",
+    "version": "0.12.33",
+    "publishedAt": "2026-11-02T05:11:46.571Z",
+    "notes": "Separate Search and Collections, preserve phone navigation history, and simplify Library titles.",
+    "baseUrl": "https://raw.githubusercontent.com/MatlockFT/screenglo-companion-updates/main/releases/0.12.33/",
     "files": [
       {
         "path": "server.js",
-        "sha256": "b4a3f039c6af1463bc744503d53d7f961ee779ac8af83616316fd83ea7d53fe6",
+        "sha256": "a15da79b97d87555d4158f9298078768ef9ac8e043ecc6244c5d60f1d98b85db",
         "size": 109762
       },
       {
         "path": "package.json",
-        "sha256": "6815971094b80d34cd87e75b99761b53fe088ea10d75d7120272eccbbc595048",
+        "sha256": "0cebe24799689e66db8156bb03062ff12f47d9c6bf9cd90723dfa9e89fca4b56",
         "size": 226
       },
       {
         "path": "start.ps1",
-        "sha256": "b910f81d558a2472ab65fdfc9f125640cfd5e646e7623ad72329a365d9d8fd4a",
+        "sha256": "002ed184086af8d421497f4df3fe42498d07323937c924d846a99bc27ab82c20",
         "size": 9172
       },
       {
@@ -27,23 +27,23 @@
       },
       {
         "path": "public/app.js",
-        "sha256": "fc39e91994e2936dfae5d9a851afad153caa97d911f472e89ba6699427a3fca1",
-        "size": 59430
+        "sha256": "88c9a383efa9f96aac969eb7e25411daf99084293b80822c70be2b9f0dc5b29d",
+        "size": 62995
       },
       {
         "path": "public/index.html",
-        "sha256": "90e81dc9bb1fc08650120a120b2639b812ca911eb563bc38c7caf26def40f4ff",
-        "size": 13890
+        "sha256": "0e18f5706be07e6aaa6c0c03a32e7bee0c159fc33c7f94703a46d6a017a0e2ec",
+        "size": 14044
       },
       {
         "path": "public/styles.css",
-        "sha256": "2201d06d022bf5702b4c83c43eb2cb130a8bb67359179100a93db8fcdbb5d467",
-        "size": 38492
+        "sha256": "c00523362a1bcdf835d45ac6a97cd8186dea48e8020db2e404d5667f7b43f4f6",
+        "size": 39934
       },
       {
         "path": "public/sw.js",
-        "sha256": "49a06bb2c309a5187405b72432b5bee777cd1bd4f345c8870bef3b7701d8f91b",
-        "size": 775
+        "sha256": "16133ab4800171a0d650370a2d1d6a0b53130f46524353f8d9d91db18f5b176c",
+        "size": 774
       },
       {
         "path": "public/manifest.webmanifest",
@@ -67,5 +67,5 @@
       }
     ]
   },
-  "signature": "5BbdDuYpKvoL/0F9DVCIN0XQVjDQUEE6CTl6kz8o0l8SdGw+EQ2ZlPZ47FuW1IUtzMzwckK6e440FodmsiftCQ=="
+  "signature": "SmVu6OmSFVaDr/FgtUDrPIwu/m4fdae7MQFu18awQPuv82PMEfdyGblB6sK4onxWzaocXDbrck71miabZ0fnAg=="
 }
