@@ -1,23 +1,23 @@
 {
   "release": {
-    "version": "0.12.30",
-    "publishedAt": "2026-09-28T03:49:51.674Z",
-    "notes": "Phone Control trackpad layout, no scrollbar, soft select target, concise copy across phone screens.",
-    "baseUrl": "https://raw.githubusercontent.com/MatlockFT/screenglo-companion-updates/main/releases/0.12.30/",
+    "version": "0.12.31",
+    "publishedAt": "2026-11-02T04:46:29.120Z",
+    "notes": "Collections-only browsing, cleaner phone search, active-download handoff, and return-position navigation.",
+    "baseUrl": "https://raw.githubusercontent.com/MatlockFT/screenglo-companion-updates/main/releases/0.12.31/",
     "files": [
       {
         "path": "server.js",
-        "sha256": "c730df7ebbee2957ecae1fefe701e69345efeec496cd39d44ad08f4b5c2d3946",
+        "sha256": "7a7e6264faeacccf7c18b88a18ecbccc8a1e01b49c3a52a624b0064c86fb138c",
         "size": 109760
       },
       {
         "path": "package.json",
-        "sha256": "2f5d7922a6407ff63d0ee2148eb0b597e269be9ed64b924db434ccd49f8c0e15",
+        "sha256": "bad12021c2291cbaafab2e92843589bd7b0a431d1c32d83f85d10bf3543fd0bc",
         "size": 226
       },
       {
         "path": "start.ps1",
-        "sha256": "ea2dfee5c0db3a298d1db3bd8f2411e82ddee3c49094f30d7fffc43a09df7bd4",
+        "sha256": "f19890dd3bb0b7dc60e1f1eaf099f41779a4da7833d75632c995e6725e1ba5f3",
         "size": 8810
       },
       {
@@ -27,13 +27,13 @@
       },
       {
         "path": "public/app.js",
-        "sha256": "1a5d28887ac1dfbdfd1f979c12f45ca24fa5374e23069e4026e0fedbef27464b",
-        "size": 57400
+        "sha256": "fc39e91994e2936dfae5d9a851afad153caa97d911f472e89ba6699427a3fca1",
+        "size": 59430
       },
       {
         "path": "public/index.html",
-        "sha256": "c7ac35e2e4c583d3a276cba1b16f43776ece7077b2396cb60633bd4888c778a8",
-        "size": 14723
+        "sha256": "90e81dc9bb1fc08650120a120b2639b812ca911eb563bc38c7caf26def40f4ff",
+        "size": 13890
       },
       {
         "path": "public/styles.css",
@@ -42,8 +42,8 @@
       },
       {
         "path": "public/sw.js",
-        "sha256": "540d5064289484d1a76799f91e888a25d938d3dbd312341671f222eb2541322e",
-        "size": 772
+        "sha256": "db66ec8ceda8d42a8d8287590aa1081900df369ff9972468b928f25f0df2a7b9",
+        "size": 775
       },
       {
         "path": "public/manifest.webmanifest",
@@ -67,5 +67,5 @@
       }
     ]
   },
-  "signature": "G/tBzKpvw4qv345YSrmT8ZSDru0BymsRJhyByQrxnVnkog7O1U04e7uNJIIGje96WvkcC+SpTAe8JXg4nKuvBg=="
+  "signature": "XWyO8aFItWAC23fpZm1B3Sr7BlfEvCQ1CFoCFAI2OiNwCNdkYeolGmy/0GbD/fWSt2enGLmdlmB0S3iHIg59Dg=="
 }
